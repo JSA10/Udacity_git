@@ -1,0 +1,138 @@
+### Udacity A/B testing ###
+
+# metric selection example based on Udacity site 
+
+# Udacity supposedly ultimately care about how many people finish courses.. 
+
+# in this example however, the hypothesis is that changing the sign-up button from orange to pink 
+# will increase the amount of students exploring Udacity's courses 
+
+# so that metric would be too long term for this hypothesis. Alternates: 
+
+# clicks - problem may occur if one version has more traffic, need a relative measure 
+# CTR - total clicks / total page views 
+# CTP = "Click-Through-Probability - unique clicks vs. unique page views 
+
+# the rate would be useful for measuring 'usability' of the site, e.g. how often did people 
+# find that button. However it would be affected by issues like double-clicking, refreshing the page etc. 
+# so wouldn't be a great measure of the actual impact on targeted behaviour 
+
+# the unique score would be a better measure for this. It requires events being set by devs, 
+# so that total clicks from each page view is tracked and assigned as 1 unique click to 1 unique view 
+
+## binomial distributions can be used when: 
+
+# two types of outcome: e.g. success or failure 
+# Events are independent #i.e. no impact on each other 
+# Events have identical distribution #i.e. probability is same for all 
+
+## ensure understand examples given in quiz: drawing cards not independent as odds change after each one 
+# (unless selected with replacement) 
+## dice = independent and same probability 
+## clicks on a search result - udacity view is that in practise if someone doesn't get result 
+# they want they wil just type in another search, so the probability changes based on 
+# feedback from first search  
+## student completing udacity course - given nature of Udacity courses, students likely to 
+# be independent as scattered all over the world and their likelihood of completing not 
+# dependent on other students, however this can change if join with friends or interact with 
+# others on course. Plus, the probability of completion may vary by student. If looking 
+# one student at the time, then perhaps probability the same? 
+## purchase of items on Amazon within a week; likely to be not independent as behaviour 
+# over course of the week, e.g. wishlisting can affect the outcome 
+
+# binomial distributions used to estimate confidence interval 
+# take p-hat sample probability estimate 
+## first check if approximately binomial - check N * p-hat > 5. 
+## second test: N * (1 - p-hat) > 5 
+## for CI: calculate margin of error: m = z * se		# se = sqrt((p-hat * (1-p-hat)) / n)
+## then: + m to p-hat & - m from p-hat for your interval 
+# see  r script for worked out example 
+
+
+https://classroom.udacity.com/courses/ud257/lessons/4018018619/concepts/40043986940923
+ 
+# how measure in practise? 
+# hypothesis testing used to quantitatively determine whether observed result due to chance 
+# e.g. are they statistically significant??  
+# in order to calculate a probability that results were due to chance 
+# need a hypothesis as to what the results would be if experiment had no effect... 
+# this == the NULL hypothesis 
+ 
+## using udacity orange vs. pink button example: 
+# if experiment had no effect, then the distributions for orange (control) and pink (experiment)
+# would be pretty much the same. Therefore their probabilities would be equal and you could say: 
+
+# NULL Hypothesis (H0): pControl = pExperiment 
+# can also write as: pExperiment - pControl = 0 
+
+Therefore the ALTERNATIVE hypothesis (HA): pExperiment - pControl != 0 
+
+So the process is:  measure P-hat for Control & Experiment
+					Calculate the difference p-hatExperiment - p-hatControl 
+					Then compute probability this would have happened by chance if H0 = TRUE
+					Then reject null hypothesis if above probability is small enough
+					Use same cut-off as CI, so in this case 95% = 0.05 = alpha
+					
+Lecture notes for checkout example quiz (Null and alt hypoth) 
+
+The null hypothesis and alternative hypothesis proposed here correspond to a two-tailed test, 
+which allows you to distinguish between three cases:
+
+A statistically significant positive result
+A statistically significant negative result
+No statistically significant difference.
+
+Sometimes when people run A/B tests, they will use a one-tailed test, which only allows you 
+to distinguish between two cases:
+
+A statistically significant positive result
+No statistically significant result
+Which one you should use depends on what action you will take based on the results. 
+If you're going to launch the experiment for a statistically significant positive change, 
+and otherwise not, then you don't need to distinguish between a negative result and no result, 
+so a one-tailed test is good enough. If you want to learn the direction of the difference, 
+then a two-tailed test is necessary.
+		
+Example: 
+Change checkout flow of online shopping site and test old vs. new flow
+Measure probability of completing checkout 
+
+H0: Change has no statistically significant effect on prob of checkout: pNew - pOld = 0 
+HA: Change has an effect: pNew - pOld != 0 
+
+When comparing two samples need to think differently about the CIs 
+- see Pooled Standard Error screen shot 
+
+Then need to decide on a practical (substantive) significance; which is the threshold from 
+a business point of view of the effect needed to be seen to implement the change
+- this is slightly different from the classis statistical significance measure, which should be lower 
++ review video for sidebar around repeatability of results 
++ review screenshot for how many page views, based on practical and statistical significance threshold (alpha & beta)
+
+Statistics textbooks frequently define power to mean the same thing as sensitivity, that is, 
+1 - beta. However, conversationally power often means the probability that your test draws 
+the correct conclusions, and this probability depends on both alpha and beta. In this course, 
+we'll use the second definition, and we'll use sensitivity to refer to 1 - beta.
+
+http://www.evanmiller.org/ab-testing/sample-size.html 
+
+#see code in r script for calculating results example 
+
+# the confidence interval case screenshot is very useful - illustrates the concept of CI,
+# statistical and practical significance nicely. 
+# for examples where the CI crosses above and below the practical or statistical significance 
+# boundary - you should run another test - this time increasing the POWER ** review
+## practically, if no time to rerun an experiment, then the uncertainty needs to be 
+# communicated and decision maker needs to decide whether to take a risk or not, probably 
+# with context from other sources e.g. strategic plan 
+
+02084308323
+
+
+
+
+
+
+
+
+

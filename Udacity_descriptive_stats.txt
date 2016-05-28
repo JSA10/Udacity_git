@@ -1,0 +1,53 @@
+Udacity intro to descriptive statistics 
+
+The researcher found a correlation between listening to classical music and performance 
+in school, then mistakenly concluded that listening to classical music caused better 
+performance in school. Correlation does not imply causation!
+
+This is because lurking variables can result in a correlation between two variables that 
+are not causally related.
+
+Independent variable similar to predictor variable, although predictor that term tends to 
+be used when we are talking about a factor that we do not manipulate, but may help our 
+predictions.
+
+Standardising: 
+
+Take spread out distribution
+Convert to standard normal distribution with mean (mu) 0 and s.d. 1 
+	- do this by converting to z scores (value X - mean)/s.d. 
+Then using the z score formula you can work out where in the standard normal distribution 
+new values lie and therefore what probability they have of occurring... 
+Can also convert from Z score back to starting values, the position in the distribution 
+should be unchanged however. 
+
+Once have probability density function, can use calculus to find area under the curve 
+between any two values (z scores) Table for standard normal dist gives value for area less
+than z score 
+
+ 	
+Sample means and central limit theorem. 
+
+NO MATTER WHAT THE POPULATION DISTRIBUTION LOOKED LIKE, if we take a series of random 
+samples of sufficient size and volume, and calculated their means, the distribution of 
+the sample means would be approximately normal. With standard deviation = sigma (sd of pop) 
+divided by the sqrt of sample size n. sigma/sqrt(n) which = Standard Error term SE 
+
+If taking samples of size 1 then SE = sigma/sqrt(1), which = sigma. We are essentially just
+replicating our actual population by taking sample of 1. 
+
+samples of size 2 = normal distribution 
+
+Increasing sample size from 2 will make the distribution of sample means skinnier, as 
+the denominator sqrt(n) will increase as n increases, making the impact of standard deviation
+numerator smaller 
+
+The relationship between n and reduction in sampling error is known 
+	- we have to quadruple n to reduce standard error from samples by half 
+	
+#inferential statistics continued in .r file 
+
+Need to remember key concepts from lesson 6: 
+Definitions of Z score, standard deviation, sampling distribution, that standard error = 
+the standard deviation of the sampling distribution. 
+	
