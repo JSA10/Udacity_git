@@ -1,0 +1,12 @@
+HTML, CSS and Javascript are building blocks of websites
+Inspecting live HTML with dev tools
+HTML follows a tree like structure
+HTML-CSS-DOM
+Everything in HTML is boxes
+
+Introduction to using CSS
+CSS Vocabulary
+Three approaches to adding CSS to your HTML document
+Everything in HTML is boxes
+Code-Test-Refine
+5 steps to translating a pre-existing design

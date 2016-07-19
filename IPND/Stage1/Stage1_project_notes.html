@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<HTML lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Stage1.css">
+    <title>Jerome's IPND HTML and CSS notes</title>
+  </head>
+  <body>
+    <div class="validator_results">
+      <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+      <img style="border:0;width:88px;height:31px"
+          src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+          alt="Valid CSS!">
+        </a>
+      </p>
+          <img style="border:0;width:300px;height:150px;"
+            src="http://i.imgur.com/lBVezkj.png?1"
+            alt="screenshot from html validator">
+    </div>
+    <div class="Title">
+      <h1>Jerome Ahye: Introduction to Programming Nanodegree (IPND)</h1>
+        <h2>Contents</h2>
+    </div>
+    <div class="concept_description">
+      <ol>
+        <li><a href="#l0.0">Setting the scene</a>
+          <ul>
+            <li><a href="#l0.1">Why am I taking a Nanodegree?</a></li>
+            <li><a href="#l0.2">Three ideas that will shape my approach</a></li>
+          </ul>
+        </li>
+        <li><a href="l1.0">Lesson 1: The basics of the web</a>
+          <ul>
+            <li><a href="#l1.1">A web of HTML</a></li>
+            <li><a href="#l1.2">How does the internet work?</a></li>
+            <li><a href="#l1.3">Understanding HTML</a></li>
+            <li><a href="#l1.4">HTML tags</a></li>
+          </ul>
+        </li>
+        <li><a href="#l2.0">Lesson 2: Creating structure in a website with HTML</a>
+          <ul>
+            <li><a href="#l2.1">HTML, CSS and Javascript are building blocks of websites</a></li>
+            <li><a href="#l2.2">Inspecting live HTML with dev tools</a></li>
+            <li><a href="#l2.3">HTML follows a tree like structure</a></li>
+            <li><a href="#l2.4">HTML-CSS-DOM</a></li>
+            <li><a href="#l2.5">Everything in HTML is boxes</a></li>
+          </ul>
+        </li>
+        <li><a href="#l3.0">Lesson 3: CSS = Cascading Style Sheets</a>
+          <ul>
+            <li><a href="#l3.1">Introduction to using CSS</a></li>
+            <li><a href="#l3.2">CSS Vocabulary</a></li>
+            <li><a href="#l3.3">Three approaches to adding CSS to your HTML document</a></li>
+            <li><a href="#l3.4">Everything in HTML is boxes</a></li>
+            <li><a href="#l3.5">Code-Test-Refine</a></li>
+            <li><a href="#l3.6">5 steps to translating a pre-existing design</a></li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+    <div class="lesson" id = l0.0>
+      <div class="concept" id = l0.1>
+        <div class="concept_title">
+          <h2>Background and motivation for taking this course</h2>
+        </div>
+        <div class="concept_description">
+          <h3>A journey of continuous improvement</h3>
+          <p>
+            I believe the ability to make sense of and create value from any type of data will be an increasingly important skillset professionally
+            and improve decision making for my partner and I as we plan for our new family's future. Therefore I am on a mission to build a well rounded Data Science skillset.
+            A slightly simplifed definition of Data Science is the intersection of Statistics, Programming and expertise in a particular doamin. (Source: John Hopkins Data Science Specialisation). These are all complex technical fields so I am under no illusions that this is a quick journey! I expect that for the next 2 to 3 years I will be doing fairly intensive study and practise both inside and outside of work.
+          </p>
+          <div class="concept_image">
+            <img src="http://i.imgur.com/I8Rnu81.png?1" alt="Screenshot of tweet from @josh_wills">
+          </div>
+          <p>
+            Am currently working as a data analyst in a digital agency (we make websites, digital experiences and content), with some statistics and math from an Economics degree and research methods from an MBA.
+            So the programming side is the one which needed completely new foundations laid.
+          </p>
+          <h3>The road to Udacity</h3>
+          <p>
+            I've been exploring a variety of online MOOCs, books and face to face learning options but have recently found some of the Udacity
+            courses on statistics the most engaging and memorable articulation of a potentially dry subject I've seen. For programming
+            skills learning by doing has to be the primary focus and it seems like Udacity's strong links to the biggest
+            tech companies and potential to move faster than University graduate programs will deliver the most practical
+            and innovative syllabus, compared to say an academic Data Science program.
+          </p>
+          <p>
+            There is some <a href="http://www.economist.com/news/business/21695908-silicon-valley-fights-talent-universities-struggle-hold-their">evidence</a>
+            now that the real innovations in fields like machine learning are happening in the tech companies, not Universities, which are seeing
+            their best and brightest migrate to technology companies, who can provide the biggest data sets, resources and now talent to tackle the biggest data challenges.
+            <br><br>
+            Therefore taking the IPND is also a tester before committing to a more long term nanodegree program like the Data Analyst or Machine Learning Engineer.
+          </p>
+          <p>
+            Another student, David Venturi, has done a lot of thinking on the subject of traditional masters vs. self created online version which I agree with, particularly
+            if you already have the University degree and experience. If at all interested in a self directed data route I highly recommend reading some of his
+            <a href="https://medium.com/@venturidb/i-dropped-out-of-school-to-create-my-own-data-science-master-s-here-s-my-curriculum-1b400dcee412#.x9czlaxsf">plan</a>.
+          </p>
+        </div>
+      </div>
+      <div class="concept" id = l0.2>
+        <div class="concept_title">
+          <h2>Three powerful ideas</h2>
+        </div>
+        <div class="concept_description">
+            <p>
+              To kick off I'd like to share three powerful ideas on learning that will shape my approach to this nanodegree and my
+              professional development journey overall. Two are discussed in the setup for this Nanodegree and the third is communicated
+              implicilty by the format of this program.
+            </p>
+          <h3>Thinking like a programmer involves wearing different hats</h3>
+            <p>
+              This one was new to me and a useful synthesis of aspects I'd seen before but in a fragmented format.
+              I'm a firm believer in the need to think before acting, while being aware of the dangers of too much thinking and too little action.
+              The value from combining these approaches is applicable to many fields, particularly complex data work.
+            </p>
+          <div class="concept_image">
+            <img src="http://i.imgur.com/Ff9NGri.png?1" alt="screenshot from Udacity IPND lecture">
+          </div>
+          <h3>Four stages of learning: Moving from ignorance to mastery</h3>
+            <p>
+              I've seen similar stages a couple of times on my journey of professional development, what I like here is using it
+              as a framework to set expectations of what will be covered in the program and to what level.
+            </p>
+        <div class="concept_image">
+            <img src="http://i.imgur.com/vimwBPB.png?1" alt="screenshot from Udacity IPND lecture">
+        </div>
+          <h3>Avoiding illusions of learning</h3>
+            <p>
+              Illusions of learning is an idea well covered in the wildly popular Coursera course;
+              <a href="https://www.coursera.org/learn/learning-how-to-learn#">Learning how to learn</a>.
+              It is an easy trap to fall into, whether conscious of it or not, and in my view a hangover from some pretty ineffective
+              study techniques drummed into many students (at least in the UK during the 1990s). It was brought back to the top of my mind recently after
+              reading this <a href="https://www.farnamstreetblog.com/2012/04/learn-anything-faster-with-the-feynman-technique/">post</a>
+              from Farnam Street. It explores a theory that there are two types of knowledge; knowing the name of something and <em>knowing</em>
+              something. My early experiences in the first two stages of this program have reassured me that Udacity are preparing students to have a deep understanding
+              that can be creatively applied and integrated with other concepts, which is
+              a key aspect of the research in the 'Learning how to learn' course.
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class="Title">
+      <h1>IPND: Lessons 1 - 3<br>
+        <em>The basics of the web, structuring web pages with HTML and adding style with CSS</em>
+      </h1>
+    </div>
+    <div class="lesson" id = l1.0>
+      <div class="lesson_header">
+        <h1>Lesson 1: The basics of the web</h1>
+      </div>
+      <div class="concept" id = l1.1>
+        <div class="concept_title">
+          <h2> World Wide Web (WWW): A web of HTML documents </h2>
+        </div>
+        <div class="concept_description">
+            <ul>
+            <li>The WWW consists of HTML documents (Hyper Text Markup Language)</li>
+            <li>These are connected to each other using links (URLs)</li>
+            <li>HTML documents can contain a variety of content types: e.g. text, images, music or video.</li>
+            </ul>
+        </div>
+      </div>
+      <div class="concept" id = l1.2>
+        <div class="concept_title">
+          <h2> How does the internet work? </h2>
+        </div>
+        <div class="concept_description">
+          <p>
+            In the process depicted below, the internet is the glue in the middle that enables web browsers on people's laptops to connect with and find content stored on these servers.
+            Content is created and structured using HTML, each piece has a URL link that acts as an identifier. A technology called <strong>"Hyper Text Transfer Protocol" (HTTP)</strong> enables the internet to communicate with the servers.
+          </p>
+        <div class="concept_image">
+          <img src = "http://i.imgur.com/HeyU99K.png?1" alt = "screenshot taken from Udacity lecture">
+        </div>
+        </div>
+      </div>
+      <div class="concept" id = l1.3>
+        <div class="concept_title">
+          <h2> Understanding HTML </h2>
+        </div>
+        <div class="concept_description">
+          <h3>HTML is made up of four parts: </h3>
+              <ol>
+              <li>Text (that you see on a web page)</li>
+              <li>Markups (code that determines what the page looks like)</li>
+              <li>References to other documents (images / videos)</li>
+              <li>Links to other pages</li>
+              </ol>
+        </div>
+      </div>
+      <div class="concept" id = l1.4>
+        <div class="concept_title">
+          <h2>HTML tags:</h2>
+        </div>
+        <div class="concept_description">
+          <p>
+            <b>Structure:</b> Tags consist of an opening tag, followed by visible content, closed with a matching second tag.
+            Each pair of opening and closing tags can be thought of as an <em> element. </em>
+          </p>
+          <div class="concept_image">
+            <img src="http://i.imgur.com/CYxyftE.png?1" alt="screenshot taken from Udacity lecture">
+          </div>
+          <p>
+            <b>Attributes:</b> Tags can have attributes, a common example is the anchor tag, which can be assigned links.
+          </p>
+          <div class="concept_image">
+            <img src="http://i.imgur.com/vwpgDzN.png?1" alt="screenshot taken from Udacity lecture">
+          </div>
+          <p>
+            <b>Void Tags:</b> Image tags are examples of void tags. Void tags have no text 'content' so don't
+            need closing tag.
+          </p>
+          <p>
+            <b>Whitespace:</b> Multiple lines in HTML code will make no difference to output as all whitespace
+            is ignored (but for a single standard space in the text). Paragraph (p) tag is the best tag to use for line breaks as enables consistent sections and format of text. Can use break (br) too, which is another void tag.
+          </p>
+          <p>
+            <b>Inline vs. Block:</b> HTML code can work 'inline'; within the text itself e.g. break, emphasis or image.
+            Or it can effectively place a wrapper around a 'block' of content e.g. paragraph.
+          </p>
+          <p>
+            <b>Container tags:</b> These are tags that don't do anything themselves but contain content and attributes.
+            Examples are span tag (inline) or div tag (block). Both can have attributes added to them, like css code to change style and design, or reference IDs.
+          </p>
+          <p>
+            For more on HTML tags, see <a href = "http://www.w3schools.com/tags/ref_byfunc.asp"> w3schools </a> list split by category / usage
+          </p>
+          <b>Examples of inline vs. block tags:</b>
+              <ul>
+              <li><b>Inline:</b> anchor, span, break, image, and strong</li>
+              <li><b>Block:</b> while divide, paragraph, and form</li>
+              </ul>
+        </div>
+      </div>
+    </div>
+    <div class="lesson" id = l2.0>
+      <div class="lesson_header">
+        <h1>Lesson 2: Creating structure in a website with HTML</h1>
+      </div>
+      <div class="concept" id = l2.1>
+        <div class="concept_title">
+          <h2>HTML, CSS and Javascript are building blocks of websites</h2>
+        </div>
+        <div class="concept_description">
+          <h3>Think of a website as a house: </h3>
+          <p>
+            <strong>HTML is the structure</strong> - where the walls are, how many rooms etc.
+            <strong>CSS is the style</strong> - the colours of the walls, what wallpaper or flooring there is
+            <strong>Javascript adds interaction</strong> - things that can change things within your house - e.g. tv remote or thermostat
+          </p>
+        </div>
+      </div>
+      <div class="concept" id = l2.2>
+        <div class="concept_title">
+          <h2>Inspecting live HTML with dev tools</h2>
+        </div>
+        <div class="concept_description">
+          <p>
+            <b>When exploring a web page using the Safari developer tool 'Web Inspector' we can observe that:</b>
+          </p>
+            <ol>
+              <li>All HTML is rectangular</li>
+              <li>We can drill down to the actual text that is displayed on the page</li>
+              <li>By using the style panes we can see formating parameters - fonts and borders etc.</li>
+              <!-- (To access style section: visible on chrome dev tool, in the far right icon in safari web inspector) -->
+            </ol>
+        </div>
+      </div>
+      <div class="concept" id = l2.3>
+        <div class="concept_title">
+          <h2>HTML follows a tree like structure</h2>
+        </div>
+        <div class="concept_description">
+          <p>
+            HTML code works best when grouped into sections, with each each new section traceable back to a 'parent' branch above
+          </p>
+        <div class="concept_image">
+            <img src="http://i.imgur.com/BdYMKtk.png?1" alt="Screenshot from Udacity lecture" />
+        </div>
+        </div>
+      </div>
+      <div class="concept" id = l2.4>
+        <div class="concept_title">
+          <h2>HTML-CSS-DOM</h2>
+        </div>
+        <div class="concept_description">
+          <ul>
+            <li>HTML and CSS are both "languages"</li>
+            <li>HTML controls the "structure" of a web page</li>
+            <li>CSS controls the "style" of a page (how it looks)</li>
+            <li>When programmers talk about the "DOM" (Document Object Model) they are
+            talking about the <strong>tree-like structure</strong> of a page</li>
+          </ul>
+          <p>
+            HTML is the language of the web, with set syntax and rules.
+            HTML uses tags to form elements, these are structured like a tree and tell the browser what to display.
+          </p>
+          <p>
+            CSS also follows syntax and rules.
+            CSS is used within the struture of HTML tags to define style.
+          </p>
+        </div>
+      </div>
+      <div class="concept" id = l2.5>
+        <div class="concept_title">
+          <h2>Everything in HTML is boxes</h2>
+        </div>
+        <div class="concept_description">
+          <p>
+            Many options to combine to make very 'unboxlike' things but need to understand the principle and the need to
+            <strong>'boxify' design</strong>.
+          </p>
+            <strong>Start with a plan, then build structure:</strong>
+            <ol>
+              <li>Go old school - start by drawing key points and structure on paper, much like an essay or project plan</li>
+              <li>Split the paper page into boxes and annotate what goes into them</li>
+              <li>When get to setting out in HTML use container tags e.g. &lt;div class = "label" &gt; content &lt;/div&gt;.
+             <br><br><em>NOTE: The class attribute is metadata describing what this container or box holds</em></li>
+            </ol>
+        </div>
+      </div>
+    </div>
+    <div class="lesson" id = l3.0>
+      <div class="lesson_header">
+        <h1>Lesson 3: CSS = Cascading Style Sheets</h1>
+      </div>
+        <!-- Intro from Andy's notes, I didnt make any on general background of CSS -->
+        <div class="concept" id = l3.1>
+          <div class="concept_title">
+            <h2>Introduction to using CSS</h2>
+            <p>
+              <i>NOTE: The original source of CSS intro and vocabulary is Andy's notes, I've added and tweaked in a few places.</i>
+            </p>
+          </div>
+          <div class="concept_description">
+              <h3>What is CSS?</h3>
+            <p>
+              CSS is code written to control the "style" of HTML elements.
+            </p>
+              <h3>How does CSS "control" HTML?</h3>
+            <p>
+              If you want to write CSS that makes all h1 elements have a black background and white text, you would write:
+            </p>
+            <p>
+              h1 { <br>
+                background-color : black; <br>
+                color: white; <br>
+              }
+            </p>
+            <p>
+              In this example, the h1 is a selector. It says to the browser "I want you to apply the rules I'm about to tell you to every h1 element."
+              The line of code that says background-color : black; is a declaration. background-color is a property and black is the value of that property.
+            </p>
+            <p>
+              To write a comment for other readers of your code, you'd write:
+              /* This is a CSS comment.*/
+            </p>
+          </div>
+        </div>
+      <div class="concept" id = l3.2>
+        <div class="concept_title">
+          <h2>CSS Vocabulary</h2>
+        </div>
+        <div class="concept_description">
+          <p>
+            <b>CSS:</b> Cascading Style Sheets. Named as they are made up of sheets that shape the style of a page and can be structured in a cascading manner.
+            Imagine a tree structure, but key difference is specifications within one can be applied to all, or focused to specific sections.
+          </p>
+            <b>Style:</b> This word can refer to many things and so it can be confusing. It can refer to:
+            <ul>
+              <li>The HTML element. For example: &lt;style&gt;div {color:blue}&lt;/style&gt;</li>
+              <li>The HTML attribute. For example: &lt;div style="color : blue"&gt;this text would be blue&lt;/div&gt;</li>
+              <li>The general look of a web page. For example: "I like that site's style."</li>
+              <li>A verb. For example: "I'm making progress on my page. The structure is all done but now I have to style it."</li>
+            </ul>
+          <p>
+            <b>Rule:</b> a line of CSS code describing the value that a certain attribute should take.
+          </p>
+          <p>
+            <b>Property:</b> The property you want to change.
+          </p>
+          <p>
+            <b>Value:</b> The value that you want to assign to the attribute.
+          </p>
+          <p>
+            <b>Selector:</b> The name that you use in order to target the elements that are assigned to a class or id attribute in the HTML.
+          </p>
+          <p>
+            <b>Class:</b> A class refers to a group of elements that can be styled together. Class names should not contain periods or any other punctuation marks such as class="l1.1"
+          </p>
+          <p>
+            <b>ID:</b> ID's are unique identifiers that uniquely identifies an element in HTML.
+          </p>
+        </div>
+        <i>The section based on Andy's notes stops with this vocabulary</i>
+      </div>
+      <div class="concept" id = l3.3>
+        <div class="concept_title">
+          <h2>Three approaches to adding CSS to your HTML document</h2>
+        </div>
+        <div class="concept_description">
+          <h3>Method 1: include CSS in the head of your HTML</h3>
+          <p>
+              + Good for small projects<br>
+              - Would lead to repetition for many pages<br>
+              <b>Example:</b> My stage0 project<br>
+          </p>
+          <h3>Method 2: Link HTML to separate CSS file</h3>
+            <p>
+              + Helps you stay organised<br>
+              - is still an extra step<br>
+              <b>Example:</b> Working example in lesson 2: My Favourite App <br>
+            </p>
+          <h3>Method 3: Write CSS inline with your HTML</h3>
+            <p>
+              - leads to LOTS of repeated code <br>
+              + just need to be familiar with this method as may well see other code that uses this method <br>
+            </p>
+       </div>
+      </div>
+      <div class="concept" id = l3.4>
+        <div class="concept_title">
+          <h2>Everything in HTML is boxes</h2>
+        </div>
+        <div class="concept_description">
+          <p>
+            Therefore box size calculations are important. However, box size doesn't just include the content itself,
+            but also three outer layers: padding, border and margin. See visual example here:
+          </p>
+          <div class="concept_image">
+            <img src="http://i.imgur.com/DvoDwRk.png" alt="Screenshot from resource used in Udacity lecture">
+          </div>
+          <p>
+            You can specify size of individual elements, but this can become complex so often best to set the box-sizing element to border box for every element:
+          </p>
+            <p>
+              *{ <br>
+                box-sizing: border-box; <br>
+              } <br>
+            </p>
+          <p>
+            <b>NOTE:</b> This is a new feature so need to ensure it works across browsers by specifying them in advance. Do this by referencing webkit (safari and chrome),
+            moz or ms.
+          </p>
+            <h3>Complete CSS code would be:</h3>
+            <p>
+                *{ <br>
+                -webkit-box-sizing: border-box; <br>
+                -moz-box-sizing: border-box; <br>
+                -ms-box-sizing: border-box; <br>
+                box-sizing: border-box; <br>
+                }
+            </p>
+          <p>
+            <b>Scaling:</b>Using pixels to size boxes means that the parameters will never change, which could lead to a bad user experience as screen sizes change.
+            Can also use a % figure which will evolve.
+          </p>
+        </div>
+      </div>
+      <div class="concept" id = l3.5>
+        <div class="concept_title">
+          <h2>Code-Test-Refine</h2>
+        </div>
+        <div class="concept_description">
+          <p>
+            Throughout this lesson we have been following a simple process of Code-Test-Refine.
+          </p>
+            <h3>A process for creating a web page:</h3>
+            <ul>
+              <li>Start by defining the page structure</li>
+              <li>Map the design - visually boxify (go old school with paper)</li>
+              <li>Add HTML tags to replicate structure</li>
+              <li>Size the boxes throughout</li>
+              <li>Position the boxes</li>
+              <li>Markup the final details</li>
+            </ul>
+        </div>
+      </div>
+      <div class="concept" id = l3.6>
+        <div class="concept_title">
+          <h2>5 steps to translating a pre-existing design</h2>
+        </div>
+        <div class="concept_description">
+            <h3>When translating a design use a 5 step process:</h3>
+            <ol>
+              <li>Look for natural boxes</li>
+              <li>Look for repeated styles and semantic elements (e.g. H2s)</li>
+              <li>Write your HTML</li>
+              <li>Apply styles</li>
+              <li>Fix things</li>
+            </ol>
+            During the process, repeat steps 3 and 4 until code replicates the design exactly
+        </div>
+        </div>
+    </div>
+  </body>
+</HTML>

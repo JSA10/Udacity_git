@@ -1,0 +1,32 @@
+0:00:00.012,0:00:03.760
+To graduate from Nanodegree, you must[br]successfully complete a series of
+
+0:00:03.760,0:00:07.120
+milestones, most of which will take[br]the form of technical projects.
+
+0:00:07.120,0:00:08.980
+For a road map of what you'll[br]work on in the program,
+
+0:00:08.980,0:00:10.370
+check out your Nanodegree[br]student portal.
+
+0:00:10.370,0:00:12.750
+You'll find the links to portal[br]in the instructor notes.
+
+0:00:12.750,0:00:16.110
+In the portal, you'll see a list of[br]the projects you' have to complete.
+
+0:00:16.110,0:00:18.465
+As well as the courses that will help[br]you prepare to do these projects.
+
+0:00:18.465,0:00:21.600
+Most students in the Nanodegree[br]will take all the courses shown in
+
+0:00:21.600,0:00:22.780
+the portal.
+
+0:00:22.780,0:00:25.400
+It's really only if you're coming[br]in with a ton of prior experience,
+
+0:00:25.400,0:00:26.940
+that you won't need to[br]take these courses.

@@ -1,0 +1,83 @@
+0:00:00.770,0:00:03.140
+I'll open up Chrome Dev tools emulator,[br]and
+
+0:00:03.140,0:00:06.520
+look at a mobile view of[br]the web fundamentals site.
+
+0:00:06.520,0:00:09.430
+I'll open Chrome,[br]navigate to Web Fundamentals,
+
+0:00:09.430,0:00:14.990
+then open the Chrome Developer Tools,[br]using Cmd, Option J, or Control ALT+J.
+
+0:00:14.990,0:00:17.460
+Next, I'll hit the emulator button.
+
+0:00:17.460,0:00:20.600
+It's that phone looking[br]icon in the toolbar.
+
+0:00:20.600,0:00:22.900
+Great, the emulator is ready to go.
+
+0:00:22.900,0:00:25.710
+I can start loading pages and[br]see how they look.
+
+0:00:25.710,0:00:26.870
+But before I do,
+
+0:00:26.870,0:00:30.990
+I like to dock the tools to the right[br]side of the browser window.
+
+0:00:30.990,0:00:33.420
+Since most phones[br]are viewed in portrait,
+
+0:00:33.420,0:00:37.820
+docking to the right side gives me[br]the most amount of vertical space.
+
+0:00:37.820,0:00:42.110
+The other thing I need to do is pick[br]the device that I want to emulate.
+
+0:00:42.110,0:00:46.240
+Chrome has a bunch of predefined[br]devices, that I can choose from.
+
+0:00:46.240,0:00:50.510
+It auto-magically sets the view[br]port size, the user agent string,
+
+0:00:50.510,0:00:54.795
+device pixel ratio, and[br]enables touch emulation.
+
+0:00:54.795,0:00:57.735
+If you're not familiar with some[br]of these terms, don't worry.
+
+0:00:57.735,0:01:00.095
+We'll cover them as part of this course.
+
+0:01:00.095,0:01:03.825
+Now I can see how a page renders[br]across different devices without ever
+
+0:01:03.825,0:01:04.385
+leaving Chrome.
+
+0:01:05.690,0:01:08.870
+Sweet, that looks about[br]how I'd expect it.
+
+0:01:08.870,0:01:11.420
+Chrome has several other[br]things that it can emulate for
+
+0:01:11.420,0:01:13.320
+you in the Emulation panel.
+
+0:01:13.320,0:01:14.950
+Hit Escape to bring it up.
+
+0:01:14.950,0:01:18.490
+Why don't you go check out a few sites[br]with different emulated devices and
+
+0:01:18.490,0:01:20.120
+see how they behave?
+
+0:01:20.120,0:01:23.110
+And, don't forget to check out some of[br]the other things that you can emulate
+
+0:01:23.110,0:01:23.650
+while you're there.

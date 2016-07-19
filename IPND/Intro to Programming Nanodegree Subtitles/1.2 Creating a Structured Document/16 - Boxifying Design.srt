@@ -1,0 +1,83 @@
+0:00:05.652,0:00:15.652
+[MUSIC]
+
+0:00:16.884,0:00:21.256
+Okay. So now, we have our freshly printed website.
+
+0:00:21.256,0:00:23.762
+I'm going to go ahead and clean things up a little bit, so
+
+0:00:23.762,0:00:25.971
+we're only looking at what our mock up should be.
+
+0:00:25.971,0:00:29.036
+Get rid of these extra colors and get rid of this extra margin on the side.
+
+0:00:29.036,0:00:29.604
+[SOUND] So
+
+0:00:29.604,0:00:34.560
+now, I'm going to go ahead and cut this up into a bunch of different boxes.
+
+0:00:34.560,0:00:38.206
+So you can see to start out, we have three main boxes.
+
+0:00:38.206,0:00:39.907
+One for our header.
+
+0:00:39.907,0:00:43.929
+One for the middle image and one for the bottom images.
+
+0:00:43.929,0:00:50.697
+[SOUND] But there's actually a lot
+
+0:00:50.697,0:00:57.760
+more than just three boxes here.
+
+0:00:57.760,0:01:01.300
+Looking at the header again, we have two more boxes.
+
+0:01:01.300,0:01:06.283
+One for the you and another for our name and title.
+
+0:01:06.283,0:01:07.881
+So let's cut those out.
+
+0:01:12.725,0:01:15.338
+We still have our single image in the middle here.
+
+0:01:15.338,0:01:20.206
+But looking at our bottom featured work section, we actually have another box
+
+0:01:20.206,0:01:24.720
+for our header and then three more boxes around our images and captions.
+
+0:01:31.280,0:01:34.960
+And you could actually keep cutting these up into more boxes.
+
+0:01:34.960,0:01:37.750
+We have another box around our images.
+
+0:01:37.750,0:01:39.930
+Another box around our titles.
+
+0:01:39.930,0:01:42.004
+Another around the URLs.
+
+0:01:42.004,0:01:45.234
+But my hand is kind of cramping from all that cutting, so
+
+0:01:45.234,0:01:46.831
+I'm just going to stop here.
+
+0:01:48.170,0:01:52.870
+Now as we just saw, I printed out the page and I cut it up with scissors.
+
+0:01:52.870,0:01:57.090
+But obviously, you could have done any of these and it would have worked out.
+
+0:01:57.090,0:02:02.580
+And you also should have found between 9 and 20 boxes depending on
+
+0:02:02.580,0:02:06.500
+how deep you went and how much you just love drawing boxes around things

@@ -1,0 +1,50 @@
+0:00:00.160,0:00:01.230
+Throughout this course,
+
+0:00:01.230,0:00:04.480
+you're going to need to test[br]your site on different devices.
+
+0:00:04.480,0:00:06.470
+So, pull out your credit card and
+
+0:00:06.470,0:00:09.735
+get ready to order all of these[br]devices that you see behind you.
+
+0:00:09.735,0:00:14.305
+>> [LAUGH] Pete, I, I don't think[br]we can ask everybody to do that.
+
+0:00:14.305,0:00:15.145
+>> Fair enough.
+
+0:00:15.145,0:00:18.865
+Instead, you could just use[br]a simulator or emulators.
+
+0:00:18.865,0:00:21.425
+Simulators and[br]emulators are great tools.
+
+0:00:21.425,0:00:25.035
+While they're not always 100% accurate,[br]because they're on different hardware
+
+0:00:25.035,0:00:28.745
+and sometimes have a different code[br]path, they'll often get the job done.
+
+0:00:28.745,0:00:30.445
+And for this course, we'll be just fine.
+
+0:00:31.480,0:00:35.930
+In this course, Cam and I are going to[br]use an emulator built into Chrome, but
+
+0:00:35.930,0:00:39.530
+be sure to check out some of the other[br]ones including the iOS simulator, and
+
+0:00:39.530,0:00:42.640
+some of the cloud based services[br]in the instructor notes.
+
+0:00:42.640,0:00:44.280
+>> Nice, I like that a lot more,
+
+0:00:44.280,0:00:47.170
+emulation is definitely[br]the much cheaper solution.
+
+0:00:47.170,0:00:49.340
+>> It is,[br]here lemme show you how it works.

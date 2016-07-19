@@ -1,0 +1,80 @@
+0:00:00.190,0:00:02.410
+As an example, let's take a look at Wikipedia.
+
+0:00:03.530,0:00:06.870
+As you can see, there is a lot on this page.
+
+0:00:06.870,0:00:11.140
+There's text and lots of different images of different sizes and
+
+0:00:11.140,0:00:15.350
+shapes, but let's take a look at the inner structure of the site.
+
+0:00:15.350,0:00:17.280
+I'm using Google Chrome as my browser,
+
+0:00:17.280,0:00:20.140
+which includes really great Developer tools.
+
+0:00:20.140,0:00:22.110
+And you should be sure to follow along with me.
+
+0:00:22.110,0:00:25.960
+In Google Chrome, if you select this three-line icon at the upper right of your
+
+0:00:25.960,0:00:32.110
+screen and select Tools > Developer Tools,
+
+0:00:32.110,0:00:36.080
+an additional panel will open at the bottom of the browser.
+
+0:00:36.080,0:00:39.030
+This shows you the structure of the page.
+
+0:00:39.030,0:00:41.280
+And this is a really important fact to know.
+
+0:00:41.280,0:00:45.440
+What you see here is not the actual code itself but
+
+0:00:45.440,0:00:49.520
+rather the structure of the page as the browser interprets it.
+
+0:00:49.520,0:00:51.400
+If you mouse over the lines or
+
+0:00:51.400,0:00:56.110
+elements in the structure, you'll notice that parts of the page get highlighted.
+
+0:00:56.110,0:01:00.440
+If you click on the triangle to the left of a line, it expands.
+
+0:01:00.440,0:01:05.489
+And you can keep going deeper and deeper into this tree-like structure.
+
+0:01:05.489,0:01:11.040
+There is also a separate panel on the right side, which is called Styles.
+
+0:01:11.040,0:01:14.270
+And this contains a different type of information.
+
+0:01:14.270,0:01:18.440
+Go ahead and explore the site on your own and as you're exploring see what
+
+0:01:18.440,0:01:21.760
+observations you can make about the Wikipedia page and structure.
+
+0:01:22.770,0:01:26.660
+And when you're done, which of the following statements did you find true?
+
+0:01:26.660,0:01:30.470
+Are all elements of the structure visible on the page?
+
+0:01:30.470,0:01:33.970
+Are all highlighted elements rectangular?
+
+0:01:33.970,0:01:36.620
+Or, if you go deep enough in the structure,
+
+0:01:36.620,0:01:38.990
+can you read the same text as you see on the page?

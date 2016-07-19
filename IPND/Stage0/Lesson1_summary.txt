@@ -1,0 +1,24 @@
+Lesson 1 Summary
+You've learned a lot so far! Let's recap some of the big ideas:
+
+The World Wide Web
+The web is composed largely of HTML documents. HTML stands for Hypertext Markup Language and is the language the browsers use to interpret web pages. The components of the web include the client (your computer and browser), the Internet, and servers. The client and servers interact through something called the Hypertext Transfer Protocol (HTTP).
+
+Basic HTML Tags
+HTML tags are what we use to tell a web browser how to display content in a web page.
+Most HTML tags consist of an opening and a closing tag.
+
+<b>text</b> Makes text bold
+<em>text</em> Makes text italic
+
+HTML Attributes
+Some tags accept additional values called attributes. They provide additional information to the browser. For example, the anchor tag takes an attribute called "href" that defines a URL to link to.
+
+<a href="url">link</a> Creates a hyperlink to the href attribute "url" and names it link
+<img src="url" alt="text"> Displays the image hosted at the src attribute "url" (this can also be a path to a local file on your computer). If the image cannot be displayed, then the alt attribute "text" is shown.
+
+More HTML Tags
+<p>text</p> Defines a paragraph. The content of the <p> tag is in a "box"
+<br> Creates a line break
+<div>content</div> Creates a "box" containter element
+<span>content</span> Creates an "inline" container element

@@ -1,0 +1,74 @@
+0:00:00.300,0:00:04.939
+As we said before, we'll be using template HTML to build our awesome resumes.
+
+0:00:04.939,0:00:10.440
+>> To do so, we'll be using the string.replace method to find a pattern
+
+0:00:10.440,0:00:14.380
+in a string and replace all or some matches of it.
+
+0:00:14.380,0:00:18.940
+We'll be using the most simple version to find the first instance of a pattern,
+
+0:00:18.940,0:00:20.270
+but you can do much more.
+
+0:00:20.270,0:00:22.790
+Check the instructor's notes for more details.
+
+0:00:22.790,0:00:25.360
+>> Let's take my email address as an example.
+
+0:00:26.490,0:00:31.040
+If I wanted to change out my Udacity email address for
+
+0:00:31.040,0:00:34.040
+a Gmail email address, I could use a replace function.
+
+0:00:36.240,0:00:39.540
+In this case, I've got var newEmail.
+
+0:00:39.540,0:00:43.310
+It goes email, the string with my Udacity email address and
+
+0:00:43.310,0:00:45.940
+I'm replacing Udacity with Gmail.
+
+0:00:47.020,0:00:49.810
+>> And don't forget to check to see if that worked.
+
+0:00:49.810,0:00:50.680
+>> Right.
+
+0:00:50.680,0:00:57.668
+Let me add console.log email to see my old email address and
+
+0:00:57.668,0:01:03.940
+console.log(newEmail) to see my new email address.
+
+0:01:04.959,0:01:11.730
+Okay, we're going to refresh our page, open up the console and there we go.
+
+0:01:11.730,0:01:15.510
+We can see my old udacity email address showing up on the console as well
+
+0:01:15.510,0:01:18.280
+as my new Gmail address on the console as well.
+
+0:01:19.630,0:01:21.440
+>> Let's have the students try it but
+
+0:01:21.440,0:01:23.780
+this time, let's append the new message to the page.
+
+0:01:23.780,0:01:29.210
+I want you to create a new called funThoughts where you take
+
+0:01:29.210,0:01:34.800
+everything that was in awesomeThoughts, but replace the word awesome with fun.
+
+0:01:34.800,0:01:39.410
+Use .append(funThoughts) and put it on the page.
+
+0:01:39.410,0:01:41.910
+Check this box when you see your message show up on the page.

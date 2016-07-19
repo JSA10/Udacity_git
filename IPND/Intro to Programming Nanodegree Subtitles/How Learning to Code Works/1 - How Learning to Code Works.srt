@@ -1,0 +1,101 @@
+0:00:00.290,0:00:03.170
+You just finished your first lesson,[br]and you may be feeling excited,
+
+0:00:03.170,0:00:05.620
+or confused, or[br]intrigued, or frustrated.
+
+0:00:05.620,0:00:06.730
+But, before we continue,
+
+0:00:06.730,0:00:10.710
+I want to take a little time to[br]explain how learning to code works.
+
+0:00:10.710,0:00:13.790
+But actually, what I want to talk to you[br]about isn't just about how learning to
+
+0:00:13.790,0:00:17.450
+code works, it's actually about[br]how learning anything works.
+
+0:00:17.450,0:00:19.490
+But it's especially relevant to coding.
+
+0:00:19.490,0:00:22.620
+And if you really internalize what[br]we'll discuss in this lesson,
+
+0:00:22.620,0:00:25.800
+you'll be in a much better[br]position to learn programming.
+
+0:00:25.800,0:00:29.780
+Anything you learn, whether it's[br]a language like Spanish, riding a bike,
+
+0:00:29.780,0:00:31.670
+or programming a computer,
+
+0:00:31.670,0:00:35.850
+you always begin at the exact[br]same place as a complete novice.
+
+0:00:35.850,0:00:39.600
+And if you choose to put in the effort,[br]you can become an expert.
+
+0:00:39.600,0:00:43.310
+The problem is that there is a big[br]gap between these two extremes.
+
+0:00:43.310,0:00:46.750
+So, instead of treating learning as[br]an attempt to bridge this massive gap
+
+0:00:46.750,0:00:50.600
+all at once, it's better to think[br]of it as a continuum of expertise
+
+0:00:50.600,0:00:54.510
+that begins somewhere over here, where[br]you don't even know where to begin and
+
+0:00:54.510,0:00:58.700
+goes all the way over here, to where[br]you forget how it was ever even hard.
+
+0:00:58.700,0:01:00.540
+Right now, you're somewhere over here.
+
+0:01:00.540,0:01:01.990
+You're actually not a complete novice.
+
+0:01:01.990,0:01:02.970
+You've learned a bit, and
+
+0:01:02.970,0:01:06.510
+since you're in this nano degree,[br]you do have an idea of where to begin.
+
+0:01:06.510,0:01:09.960
+And learning happens whenever[br]you make progress this way.
+
+0:01:09.960,0:01:12.530
+Now, this is fine; you may not[br]understand why this is worth
+
+0:01:12.530,0:01:15.150
+talking about, and I'll explain[br]exactly why this way of thinking
+
+0:01:15.150,0:01:18.110
+about learning is incredibly[br]helpful in just a minute.
+
+0:01:18.110,0:01:20.580
+But, the explanation[br]will be much more clear
+
+0:01:20.580,0:01:23.000
+if you take a minute[br]to think of something.
+
+0:01:23.000,0:01:25.900
+In which you are an expert,[br]or at least a near-expert.
+
+0:01:25.900,0:01:27.320
+And you are an expert in something.
+
+0:01:27.320,0:01:28.310
+If you're having trouble,
+
+0:01:28.310,0:01:31.140
+your native language is something[br]you're probably an expert in.
+
+0:01:31.140,0:01:35.230
+But ideally, try to think of something[br]in which you've acquired your expertise
+
+0:01:35.230,0:01:36.160
+somewhat more recently.

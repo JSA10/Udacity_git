@@ -1,0 +1,155 @@
+0:00:00.400,0:00:04.620
+Earlier you learned that every element on the Wikipedia web page seemed to
+
+0:00:04.620,0:00:08.940
+be a box, even the completely not-rectangular images.
+
+0:00:08.940,0:00:10.000
+But wait.
+
+0:00:10.000,0:00:12.380
+How can everything be a box?
+
+0:00:12.380,0:00:17.380
+I mean, there are other shapes in the world like circles, right?
+
+0:00:17.380,0:00:19.010
+Well, that is very true.
+
+0:00:19.010,0:00:23.220
+On a website, something may look like a circle or
+
+0:00:23.220,0:00:28.150
+a triangle or something a little more irregular, but, in fact,
+
+0:00:28.150,0:00:33.130
+it's still just a box, it just looks like a circle.
+
+0:00:33.130,0:00:34.200
+Don't believe it?
+
+0:00:34.200,0:00:35.880
+Neither did I the first time.
+
+0:00:35.880,0:00:38.140
+Let's take a look at this demo site.
+
+0:00:38.140,0:00:43.590
+On this site we have three very nice circles, and we've even got a triangle.
+
+0:00:43.590,0:00:47.050
+I mean, these can't just be rectangles, right.
+
+0:00:47.050,0:00:49.160
+Or can they?
+
+0:00:49.160,0:00:51.540
+Right clicking on the first circle and
+
+0:00:51.540,0:00:55.820
+selecting inspect element brings up Google developer tools
+
+0:00:55.820,0:01:00.530
+in the exact location where the circle is located in the structure.
+
+0:01:01.740,0:01:02.310
+Wait.
+
+0:01:02.310,0:01:04.556
+What?
+
+0:01:04.556,0:01:07.470
+My mind was just blown.
+
+0:01:08.590,0:01:11.820
+So, what exactly is going on here?
+
+0:01:11.820,0:01:15.530
+In this left panel we have the structure that we are already so
+
+0:01:15.530,0:01:20.170
+familiar with and this part seems to define our circle.
+
+0:01:20.170,0:01:25.870
+If I highlight this line in Developer tools it highlights a rectangular
+
+0:01:25.870,0:01:31.700
+shape on the page but where does the visible round shape come from?
+
+0:01:31.700,0:01:34.660
+I talked a little something about style earlier.
+
+0:01:34.660,0:01:39.490
+So the answer is probably in the style panel here on the right.
+
+0:01:39.490,0:01:43.950
+What you see here are the styles used to display the element selected in
+
+0:01:43.950,0:01:45.010
+the left panel.
+
+0:01:45.010,0:01:47.980
+The very cool thing is that you can change the style and
+
+0:01:47.980,0:01:49.800
+immediately see the result.
+
+0:01:49.800,0:01:55.240
+So, for example, maybe I don't want an even number of pixels for within height.
+
+0:01:55.240,0:01:58.589
+Maybe I want to change this 200 to 100.
+
+0:01:58.589,0:02:00.070
+What happens?
+
+0:02:00.070,0:02:03.690
+Looks like we have more of an oval then a circle.
+
+0:02:03.690,0:02:06.820
+And, maybe, I don't like the color green.
+
+0:02:06.820,0:02:10.009
+But I don't know what color I want my circle to be.
+
+0:02:10.009,0:02:14.900
+If I click on this little color square, it brings up a selection tool,
+
+0:02:14.900,0:02:18.860
+where I can select any color in the visible spectrum.
+
+0:02:18.860,0:02:20.020
+Let's go with blue.
+
+0:02:20.020,0:02:22.280
+Now, go ahead, open this page.
+
+0:02:22.280,0:02:25.750
+The link is provided to you in the instructor notes section.
+
+0:02:25.750,0:02:28.680
+And play around with the style of the circles on your own.
+
+0:02:28.680,0:02:33.070
+Particularly, take a look at what happens if you uncheck the border radius
+
+0:02:33.070,0:02:38.230
+property and if at anytime you decide that your change has got a little
+
+0:02:38.230,0:02:42.550
+too crazy and you want to go back to normal, you can just refresh the page.
+
+0:02:43.620,0:02:47.640
+So, what did happen when you unchecked border radius?
+
+0:02:47.640,0:02:49.940
+Did the circle disappear?
+
+0:02:49.940,0:02:52.820
+Did the circle turn into a square?
+
+0:02:52.820,0:02:55.820
+Did the circle become smaller?
+
+0:02:55.820,0:02:57.280
+Or, did nothing happen?

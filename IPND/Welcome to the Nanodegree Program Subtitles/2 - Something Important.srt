@@ -1,0 +1,44 @@
+0:00:00.380,0:00:02.029
+If you followed the previous step,
+
+0:00:02.029,0:00:06.700
+you saw that text like this[br]can turn into text like this.
+
+0:00:06.700,0:00:09.340
+And even though you don't[br]know how this happened,
+
+0:00:09.340,0:00:13.840
+you probably can guess that these tags[br]here had something to do with it.
+
+0:00:13.840,0:00:17.270
+Somehow the computer was interpreting[br]those things differently
+
+0:00:17.270,0:00:18.570
+than how a person would.
+
+0:00:18.570,0:00:20.910
+And that is a huge idea.
+
+0:00:20.910,0:00:23.590
+Because before this experience[br]you probably didn't even
+
+0:00:23.590,0:00:26.820
+know what you didn't know[br]about making web pages.
+
+0:00:26.820,0:00:30.630
+And now, even though you don't really[br]know how to talk to a computer,
+
+0:00:30.630,0:00:34.720
+you may have some understanding of[br]what talking to a computer even means.
+
+0:00:34.720,0:00:37.310
+You're beginning to know,[br]what you don't know.
+
+0:00:37.310,0:00:41.170
+And may even have a basic intuition for[br]what coding even is.
+
+0:00:41.170,0:00:44.220
+Because coding a computer,[br]is just telling a computer
+
+0:00:44.220,0:00:47.540
+what you want it to do, by writing text,[br]in a way it can understand.

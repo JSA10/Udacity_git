@@ -1,0 +1,104 @@
+0:00:00.410,0:00:03.660
+Learning to code is hard and
+
+0:00:03.660,0:00:05.520
+you will feel confusion and[br]you will feel frustration.
+
+0:00:05.520,0:00:08.920
+But that is okay, that's to be expected.
+
+0:00:08.920,0:00:11.989
+What isn't okay is[br]when these confusion or
+
+0:00:11.989,0:00:17.447
+frustration is allowed to turn into[br]something worse like disappointment,
+
+0:00:17.447,0:00:22.080
+or anger, or terror, or[br]whatever, whatever that guy is.
+
+0:00:22.080,0:00:23.800
+Certainly doesn't look happy.
+
+0:00:23.800,0:00:27.470
+And since you're watching this right[br]now, you want to learn to code.
+
+0:00:27.470,0:00:30.420
+But if you start feeling[br]anything like this,
+
+0:00:30.420,0:00:32.400
+you're probably going to want to quit.
+
+0:00:32.400,0:00:37.130
+So, you should try your best to[br]avoid letting this, turn into this.
+
+0:00:37.130,0:00:40.590
+So, let me tell you some strategies for[br]how to stick with it.
+
+0:00:40.590,0:00:41.670
+When you start feeling frustrated or
+
+0:00:41.670,0:00:44.030
+confused, there are a few[br]things you can do.
+
+0:00:44.030,0:00:46.180
+First, you should always ask for help.
+
+0:00:47.200,0:00:51.930
+Typing your problem into a Google[br]search bar, will often solve it.
+
+0:00:51.930,0:00:54.950
+And, you can also go to[br]the Udacity discussion forums.
+
+0:00:54.950,0:00:56.690
+Your classmates[br]are an incredible resource.
+
+0:00:56.690,0:01:01.130
+The second thing you can[br]do is just take a break.
+
+0:01:01.130,0:01:02.610
+Press that pause button.
+
+0:01:02.610,0:01:06.010
+Try to learn when you're frustrated[br]can be really counterproductive.
+
+0:01:06.010,0:01:08.700
+Don't hesitate to stop and[br]come back the next day.
+
+0:01:08.700,0:01:11.970
+The third thing you can do, and this is[br]something a lot of people have trouble
+
+0:01:11.970,0:01:16.950
+with, but which is really useful,[br]is you can just keep going.
+
+0:01:16.950,0:01:18.540
+Look at answers when they're available.
+
+0:01:18.540,0:01:19.690
+Try to learn from them.
+
+0:01:19.690,0:01:21.720
+Go on without them if they're not.
+
+0:01:21.720,0:01:25.040
+Remember, you are not meant to be an[br]expert in this nanodegree, so sometimes
+
+0:01:25.040,0:01:29.730
+the best move will be to just go on and[br]accept a little temporary confusion.
+
+0:01:29.730,0:01:31.912
+To help you know when you should[br]feel comfortable continuing,
+
+0:01:31.912,0:01:35.970
+I'm going to occasionally be asking you[br]to rate yourself on the spectrum of
+
+0:01:35.970,0:01:38.770
+expertise from ignorance to fluency.
+
+0:01:38.770,0:01:39.830
+And then based on your responses,
+
+0:01:39.830,0:01:43.020
+I'm going to give you feedback[br]about what you should do next.
+
+0:01:43.020,0:01:43.920
+Let's try that out right now.

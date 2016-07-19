@@ -1,0 +1,77 @@
+0:00:00.820,0:00:03.130
+So James, do you think we should go over the differences between
+
+0:00:03.130,0:00:07.300
+bracket notation, dot notation and object literal notation?
+
+0:00:07.300,0:00:07.870
+>> Not really.
+
+0:00:07.870,0:00:11.130
+I think that conversation would make this class a lot longer.
+
+0:00:11.130,0:00:14.690
+Let's put a link in the instructor's notes to give students more information.
+
+0:00:14.690,0:00:17.100
+Good news is, they're pretty similar.
+
+0:00:17.100,0:00:17.930
+>> Yeah. That's fair.
+
+0:00:19.000,0:00:22.860
+Okay. So we're about to get into control flow in JavaScript.
+
+0:00:22.860,0:00:25.910
+But, before we do, let's go ahead and finish all of our objects.
+
+0:00:25.910,0:00:29.440
+The work object and projects objects needed to be created.
+
+0:00:29.440,0:00:32.980
+And let's go ahead and finish up the biography and education objects.
+
+0:00:34.620,0:00:35.750
+While we're at it, let's go ahead and
+
+0:00:35.750,0:00:41.790
+clean out resumeBuilder.js too, so that way, it only contains the four objects.
+
+0:00:41.790,0:00:45.380
+You might have some code in resumeBuilder.js from previous quizzes.
+
+0:00:45.380,0:00:47.670
+If you want to keep it, that's totally cool.
+
+0:00:47.670,0:00:50.250
+But you should comment it out with two slashes.
+
+0:00:50.250,0:00:51.160
+These two slashes at
+
+0:00:51.160,0:00:54.510
+the beginning of any line will comment out the rest of the line.
+
+0:00:54.510,0:00:58.010
+Or, if you don't want to comment out your code, you can just simply cut and
+
+0:00:58.010,0:01:00.350
+paste all of it into a different file.
+
+0:01:00.350,0:01:01.650
+>> That's a good idea.
+
+0:01:01.650,0:01:04.530
+Let's start the next lesson with a clean file,
+
+0:01:04.530,0:01:06.940
+with just our biographical objects.
+
+0:01:06.940,0:01:10.840
+Click this box once you've created your bio, work, projects and
+
+0:01:10.840,0:01:12.380
+education objects, and
+
+0:01:12.380,0:01:16.330
+either have cleared out or commented out, all of your previous code.

@@ -1,0 +1,92 @@
+0:00:00.000,0:00:02.091
+Great.
+
+0:00:02.091,0:00:04.447
+Now that you have the structure of the page down,
+
+0:00:04.447,0:00:07.563
+you can work on making it look like the design you were provided.
+
+0:00:07.563,0:00:12.960
+Now to do this, you need to use CSS or Cascading Style Sheets.
+
+0:00:12.960,0:00:16.460
+Now you can probably assume that style means looks or
+
+0:00:16.460,0:00:19.750
+the way that the web site will appear to the user.
+
+0:00:19.750,0:00:22.790
+But what do cascading and sheets mean?
+
+0:00:23.950,0:00:27.120
+First, you can have several CSS files or
+
+0:00:27.120,0:00:30.610
+sheets that will be referenced in HTML and
+
+0:00:30.610,0:00:35.650
+all of them will be used to find out the final and visible style for your page.
+
+0:00:35.650,0:00:38.210
+Think of it in terms of laws.
+
+0:00:38.210,0:00:43.770
+You have a national law that deals with how your country is organized and then
+
+0:00:43.770,0:00:48.910
+you might have state laws, which tell you can or cannot do in a given state.
+
+0:00:48.910,0:00:53.612
+And then you might have municipality laws, which specify what you can or
+
+0:00:53.612,0:00:55.165
+cannot do in your city.
+
+0:00:55.165,0:00:58.939
+And then at the end, you might have your own house rules.
+
+0:00:58.939,0:01:01.210
+Well, CSS is a bit different.
+
+0:01:01.210,0:01:05.369
+Because with CSS the most specific rule is applied to every element.
+
+0:01:06.430,0:01:12.070
+So your house rules would actually be the same as the national laws.
+
+0:01:12.070,0:01:15.450
+Wouldn't this be awesome if this was true in real life?
+
+0:01:15.450,0:01:17.500
+For example, I went to school in Orlando.
+
+0:01:17.500,0:01:20.569
+And I made it a rule that we did theme park Mondays.
+
+0:01:20.569,0:01:23.244
+Meaning, if I had time on Monday, I went to the theme park.
+
+0:01:23.244,0:01:24.880
+It was a house rule.
+
+0:01:24.880,0:01:27.470
+Wouldn't that be great if it was national law?
+
+0:01:27.470,0:01:29.870
+I can go to a theme park every Monday.
+
+0:01:30.890,0:01:34.800
+Now, this concept of most specific rule applied is what
+
+0:01:34.800,0:01:37.160
+the word cascading means.
+
+0:01:37.160,0:01:38.790
+You keep going down and
+
+0:01:38.790,0:01:43.490
+down into the rules until you find the one that best describes the elements.
+
+0:01:43.490,0:01:45.240
+And then that rule gets applied

@@ -1,0 +1,32 @@
+0:00:00.540,0:00:02.870
+Let's emulate a custom device.
+
+0:00:02.870,0:00:07.970
+It should have the following[br]characteristics, a width of 412 pixels,
+
+0:00:07.970,0:00:13.330
+a height of 603 pixels,[br]a device pixel ratio of 3.5, and
+
+0:00:13.330,0:00:15.930
+then the user agent[br]string should be this.
+
+0:00:15.930,0:00:18.850
+You'll find a copy of it[br]in the instructor notes.
+
+0:00:18.850,0:00:21.110
+When you open the URL in[br]the instructor notes,
+
+0:00:21.110,0:00:24.010
+you'll see a website that looks[br]a little something like this.
+
+0:00:24.010,0:00:27.780
+Pop open Dev tools, and[br]then go ahead and start Emulation mode.
+
+0:00:27.780,0:00:29.900
+When you've successfully[br]emulated the device,
+
+0:00:29.900,0:00:32.980
+you'll see a code appear[br]somewhere on this website.
+
+0:00:32.980,0:00:34.890
+Type your code into[br]this box to continue.

@@ -1,0 +1,32 @@
+0:00:00.160,0:00:04.820
+Starting with 1, 1 isn't zero, so that's going to be truthy.
+
+0:00:06.410,0:00:09.640
+Awesome is a string of more than zero characters, so
+
+0:00:09.640,0:00:12.460
+that's going to also be truthy.
+
+0:00:12.460,0:00:14.240
+Undefined is simply falsy.
+
+0:00:16.100,0:00:18.450
+-42 isn't zero.
+
+0:00:18.450,0:00:20.449
+This one's kind of tricky, but it's also truthy.
+
+0:00:21.470,0:00:22.960
+Then we come up to this object.
+
+0:00:22.960,0:00:26.850
+And despite the fact that its one property has a value of false, it's an object,
+
+0:00:26.850,0:00:28.600
+which means that it is truthy.
+
+0:00:30.450,0:00:34.130
+Lastly, we've got this array with a single value of false.
+
+0:00:34.130,0:00:35.990
+Because it's an array, it going to be truthy

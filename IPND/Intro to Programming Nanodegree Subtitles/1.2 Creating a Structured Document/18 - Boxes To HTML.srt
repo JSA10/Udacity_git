@@ -1,0 +1,188 @@
+0:00:00.180,0:00:04.720
+Great, so you know how to chop up a webpage design into boxes and
+
+0:00:04.720,0:00:08.410
+you've even heard advice from an experienced front end developer.
+
+0:00:08.410,0:00:11.370
+Let's take a look at another very simple example.
+
+0:00:11.370,0:00:15.620
+How do you transfer this to an HTML document,
+
+0:00:15.620,0:00:18.170
+and how do you change how the boxes look?
+
+0:00:18.170,0:00:21.410
+Let me quickly show you how to translate the model to HTML.
+
+0:00:21.410,0:00:25.080
+And then you will write it in a file that you can open in your browser.
+
+0:00:25.080,0:00:28.610
+In this design, you can see that there are four boxes.
+
+0:00:28.610,0:00:32.000
+We have one over the title, another over this content, and
+
+0:00:32.000,0:00:36.320
+then two more boxes inside of this larger box.
+
+0:00:36.320,0:00:39.810
+One around the image, and another around the text.
+
+0:00:39.810,0:00:44.790
+So let's not worry about how these boxes look or what's inside of them.
+
+0:00:44.790,0:00:48.190
+And let's not worry that I haven't actually perfectly aligned the top of
+
+0:00:48.190,0:00:49.330
+this box with that one.
+
+0:00:49.330,0:00:52.200
+It's driving me crazy but we don't have to worry about it right now.
+
+0:00:52.200,0:00:55.870
+Now you can define this type of box with a div tag.
+
+0:00:55.870,0:00:59.040
+We'll write this code using Sublime Text and
+
+0:00:59.040,0:01:04.190
+we suggest that you use either this code editor or something similar.
+
+0:01:04.190,0:01:07.360
+Now we define boxes with div tags.
+
+0:01:07.360,0:01:11.470
+So let's go ahead and create tags for each of our boxes.
+
+0:01:11.470,0:01:15.770
+First, we'll start with the title box and start typing div.
+
+0:01:15.770,0:01:20.350
+Now this is the really nice thing of using a code editor like Sublime Text.
+
+0:01:20.350,0:01:23.880
+It automatically is guessing what we might use.
+
+0:01:23.880,0:01:28.820
+So, we do know we want it to be a div, we can click tab, and
+
+0:01:28.820,0:01:34.150
+now we have the completed HTML tags, an opening tag, and a closing tag.
+
+0:01:34.150,0:01:39.480
+Next we have another box for the content which requires another div tag.
+
+0:01:39.480,0:01:43.120
+And now within this box, we have two more boxes.
+
+0:01:43.120,0:01:50.830
+So we'll hit another line, so now we have four div tags for our four boxes.
+
+0:01:50.830,0:01:53.220
+Now let's add some placeholder content so
+
+0:01:53.220,0:01:57.460
+that we remember which boxes each of our tags refer to.
+
+0:01:57.460,0:02:01.000
+So our first one is for our title, which is, My App.
+
+0:02:01.000,0:02:04.160
+And then we have our image and our text.
+
+0:02:05.490,0:02:06.340
+Now that's great.
+
+0:02:06.340,0:02:08.830
+But how do you apply a style to them?
+
+0:02:08.830,0:02:12.620
+The boxes are of different sizes and they're in different locations.
+
+0:02:12.620,0:02:15.750
+And you need to somehow mark them so that you can easily apply style later.
+
+0:02:15.750,0:02:20.690
+Now the best way to do this is to give each element a class attribute.
+
+0:02:20.690,0:02:24.370
+Now, you can think of these class attributes as labels on boxes,
+
+0:02:24.370,0:02:27.830
+something that reminds you of what's inside of them.
+
+0:02:27.830,0:02:31.860
+For example, when you move you might give a box a label to let
+
+0:02:31.860,0:02:33.930
+the movers know where it might go.
+
+0:02:33.930,0:02:36.790
+For example, master bedroom or kitchen.
+
+0:02:38.620,0:02:41.110
+Now boxes can also have several labels and
+
+0:02:41.110,0:02:45.550
+the same applies to HTML tags, they can belong to multiple classes.
+
+0:02:45.550,0:02:47.020
+Now back to our moving example,
+
+0:02:47.020,0:02:50.530
+you might want to say the items that go to the kitchen are also fragile.
+
+0:02:50.530,0:02:52.250
+So, you might add Handle with Care.
+
+0:02:53.300,0:02:56.390
+It's a good idea to have class names that make sense so
+
+0:02:56.390,0:03:00.900
+that you understand what the purpose of the box is just by glancing at the code.
+
+0:03:00.900,0:03:06.674
+For example, while you could just give the divs class names like box 1,
+
+0:03:06.674,0:03:08.300
+box 2, et cetera.
+
+0:03:08.300,0:03:09.970
+It's not really informative.
+
+0:03:09.970,0:03:14.650
+I mean, will you really remember that you called this title box box1?
+
+0:03:14.650,0:03:15.360
+Probably not.
+
+0:03:15.360,0:03:19.650
+What would make more sense is to name the top div title, and
+
+0:03:19.650,0:03:22.210
+then the bottom big div app.
+
+0:03:23.260,0:03:28.640
+Then the div that contains the application image, screenshot.
+
+0:03:28.640,0:03:31.680
+And the text one, description.
+
+0:03:31.680,0:03:32.610
+Excellent.
+
+0:03:32.610,0:03:35.740
+We now have the general structure of the page down.
+
+0:03:35.740,0:03:39.380
+So, now it's your turn to save this in a file and
+
+0:03:39.380,0:03:41.090
+see how it looks in the browser.
+
+0:03:41.090,0:03:42.870
+Instructions for doing so follow.

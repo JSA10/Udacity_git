@@ -1,0 +1,26 @@
+0:00:00.220,0:00:01.060
+To find this out,
+
+0:00:01.060,0:00:05.880
+we'll take a look at a appending skills.length to the main div on the page.
+
+0:00:05.880,0:00:10.160
+Looking at the array, we have index zero, index one, index two, and index three.
+
+0:00:10.160,0:00:14.210
+So, let's go ahead and save this.
+
+0:00:14.210,0:00:16.710
+Come over to the browser and hit refresh.
+
+0:00:16.710,0:00:19.410
+And we can see that the skills length is four,
+
+0:00:19.410,0:00:24.270
+despite the fact that the last item in the array has an index of three.
+
+0:00:24.270,0:00:28.770
+So, looking at the question, is the length of an array equal to the last index?
+
+0:00:28.770,0:00:30.230
+The correct answer is no.

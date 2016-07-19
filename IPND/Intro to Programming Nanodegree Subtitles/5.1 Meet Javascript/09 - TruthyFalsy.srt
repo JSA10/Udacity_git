@@ -1,0 +1,116 @@
+0:00:00.870,0:00:02.130
+So Cameron, why are we here?
+
+0:00:03.460,0:00:06.660
+>> I'm just checking out this soccer, I mean football scores.
+
+0:00:06.660,0:00:08.450
+>> And how does that relate to JavaScript?
+
+0:00:08.450,0:00:09.660
+>> You'll see.
+
+0:00:09.660,0:00:11.500
+Okay. So if I ask you whether or
+
+0:00:11.500,0:00:14.630
+not the US won any of these games, how you would respond?
+
+0:00:14.630,0:00:17.200
+Let's start with this first one against Ghana.
+
+0:00:17.200,0:00:18.570
+Did we win?
+
+0:00:18.570,0:00:19.410
+>> True.
+
+0:00:19.410,0:00:20.750
+>> Correct.
+
+0:00:20.750,0:00:21.850
+Okay.
+
+0:00:21.850,0:00:23.470
+What about this one, against Belgium?
+
+0:00:24.490,0:00:25.720
+>> Hm.
+
+0:00:25.720,0:00:26.590
+False.
+
+0:00:26.590,0:00:27.700
+>> Also correct.
+
+0:00:27.700,0:00:29.060
+All right. One last one.
+
+0:00:29.060,0:00:33.403
+What about that one, against Argentina?
+
+0:00:33.403,0:00:33.903
+>> Hm.
+
+0:00:35.045,0:00:36.460
+We didn't even play them.
+
+0:00:36.460,0:00:37.650
+>> correct.
+
+0:00:37.650,0:00:40.518
+And JavaScript gives us a way of expressing this, as Undefined.
+
+0:00:43.132,0:00:43.694
+>> Okay.
+
+0:00:43.694,0:00:45.450
+I see what you're getting at.
+
+0:00:45.450,0:00:49.330
+True and False isn't as cut and dry as our football chart.
+
+0:00:49.330,0:00:52.270
+JavaScript has a set of values that can evaluate to true or
+
+0:00:52.270,0:00:55.150
+false, but many not equal true or false.
+
+0:00:55.150,0:00:59.500
+Because of this, we call these values truthy and falsy.
+
+0:00:59.500,0:01:04.000
+Under truthy, we've got true, non-zero numbers,
+
+0:01:05.180,0:01:11.540
+strings with a length of at least one, objects, arrays, and functions.
+
+0:01:12.730,0:01:17.662
+And under falsy, we've got false, zero,
+
+0:01:17.662,0:01:23.540
+empty strings, undefined, null and Not a Number.
+
+0:01:25.310,0:01:28.450
+>> Undefined means that the variable doesn't exist and
+
+0:01:28.450,0:01:30.280
+the interpreter doesn't know what you're referring to.
+
+0:01:31.710,0:01:36.460
+Null means that the variable exist, but has well no value.
+
+0:01:36.460,0:01:37.850
+It's usually used as a placeholder.
+
+0:01:39.020,0:01:43.430
+And Not a Number is not a number or a result that isn't a number.
+
+0:01:44.930,0:01:47.570
+>> There's a link in the instructor's notes comparing Truthy and
+
+0:01:47.570,0:01:50.500
+Falsy values in Python and JavaScript.
+
+0:01:50.500,0:01:52.600
+Let's take a quiz to make sure you got them all.

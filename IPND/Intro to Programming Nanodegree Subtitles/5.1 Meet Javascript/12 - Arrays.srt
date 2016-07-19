@@ -1,0 +1,104 @@
+0:00:09.900,0:00:11.830
+So, where are we now?
+
+0:00:11.830,0:00:13.130
+>> We're in a sauna, and
+
+0:00:13.130,0:00:16.360
+this list over here is everything that I wanted to cover in this course.
+
+0:00:16.360,0:00:17.280
+>> Okay.
+
+0:00:17.280,0:00:20.980
+>> Yeah, okay, so arrays in JavaScript are just like lists.
+
+0:00:20.980,0:00:25.610
+In this case, the zero item is Intro, after that, we have GitHub and so on.
+
+0:00:25.610,0:00:30.170
+I'm really glad you said zeroing because JavaScript arrays are zero index.
+
+0:00:30.170,0:00:31.520
+>> Yeah, they sure are.
+
+0:00:31.520,0:00:32.020
+Let's take a look.
+
+0:00:33.691,0:00:37.930
+Arrays are just lists of values and they behave the same as lists in Python.
+
+0:00:37.930,0:00:41.200
+We start lists with the same syntax as before, with var and
+
+0:00:41.200,0:00:43.980
+then the name of the array, followed by an equals sign.
+
+0:00:43.980,0:00:47.960
+The array will be defined by these square brackets with items inside,
+
+0:00:47.960,0:00:49.060
+separated by commas.
+
+0:00:50.150,0:00:55.030
+Let's make an array of skills, this could be really useful on our resumes later.
+
+0:00:55.030,0:00:59.580
+So I'll go ahead and start with var skills and then I'll start with awesomeness.
+
+0:00:59.580,0:01:01.200
+>> That's not a skill, dude.
+
+0:01:01.200,0:01:03.550
+>> It actually is if you check my LinkedIn profile.
+
+0:01:03.550,0:01:08.880
+Then I've got programming, teaching and JavaScript, all separated by commas.
+
+0:01:08.880,0:01:12.700
+I'll go ahead and append the skills to the page, save it,
+
+0:01:13.740,0:01:18.270
+come over here, hit Refresh and we can see it on the page.
+
+0:01:18.270,0:01:21.470
+It's not separated by any commas or spaces here, because we
+
+0:01:21.470,0:01:25.420
+didn't have any commas or spaces within the strings, in our skills array.
+
+0:01:25.420,0:01:26.570
+And we can see that we have now,
+
+0:01:26.570,0:01:29.950
+just awesomeness added to the end, of our array.
+
+0:01:31.200,0:01:33.680
+Let's say I just wanted to append the first item,
+
+0:01:33.680,0:01:35.980
+awesomeness, to the page instead.
+
+0:01:35.980,0:01:40.260
+I'll start by commenting out this line, and then using bracket notation
+
+0:01:40.260,0:01:44.790
+I'll append the zeroth item of the skills array to the main div on the page.
+
+0:01:44.790,0:01:47.330
+I'll go ahead and save this, come over to the browser and
+
+0:01:47.330,0:01:50.740
+hit Refresh, and we can see that we just have awesomeness on
+
+0:01:50.740,0:01:53.860
+the page now because we used bracket notation.
+
+0:01:53.860,0:01:57.390
+>> Nice, one cool thing is that JavaScript gives us a way of
+
+0:01:57.390,0:01:59.320
+accessing properties about the array.
+
+0:02:00.490,0:02:03.360
+In fact, you should give it a try, let's take a quiz.

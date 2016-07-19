@@ -1,0 +1,56 @@
+0:00:00.540,0:00:03.560
+Now developer tools can also be a really great help to
+
+0:00:03.560,0:00:06.720
+you during the code test refine routine.
+
+0:00:06.720,0:00:09.230
+You're able to test things on the fly and
+
+0:00:09.230,0:00:14.280
+see how it affects your page without actually changing the HTML and CSS files.
+
+0:00:14.280,0:00:17.180
+So for example with the header 1 here I can
+
+0:00:17.180,0:00:21.570
+easily change the font size to make it bigger or smaller.
+
+0:00:21.570,0:00:25.400
+I can change the font family say to Arial.
+
+0:00:25.400,0:00:28.240
+I can also change the background colors of things.
+
+0:00:28.240,0:00:33.760
+So, for example, say I might not have the hexadecimal color from the designer
+
+0:00:33.760,0:00:39.440
+but I just want to use the slider and find something that looks pretty close.
+
+0:00:39.440,0:00:46.640
+You can also click over to the Sources tab and see the code, in the same place.
+
+0:00:46.640,0:00:50.230
+And then also remember that you can reset any changes by just
+
+0:00:50.230,0:00:51.360
+clicking the Refresh button.
+
+0:00:52.660,0:00:55.290
+So go ahead and play around a bit with Dev Tools and
+
+0:00:55.290,0:00:58.190
+see what you can change, and then let me know.
+
+0:00:58.190,0:01:00.760
+Just how cool is it to play with Dev Tools?
+
+0:01:02.230,0:01:06.500
+Let me know on a scale from one to ten with one being
+
+0:01:06.500,0:01:11.610
+a total snooze fest and ten being totally awesome.
+
+0:01:12.900,0:01:14.600
+Personally, I hope you choose ten.

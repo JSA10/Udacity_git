@@ -1,0 +1,35 @@
+0:00:00.190,0:00:04.970
+I've gone ahead and diagrammed what we're seeing in the JSon over here.
+
+0:00:04.970,0:00:08.930
+We have an education object, which we see right here.
+
+0:00:08.930,0:00:13.000
+And then inside of it, we have a schools array, which we can see right here.
+
+0:00:13.000,0:00:13.900
+Key schools, and
+
+0:00:13.900,0:00:17.870
+then we know it's value is an array because of these square brackets.
+
+0:00:17.870,0:00:21.360
+Inside the schools array, we have two school objects.
+
+0:00:21.360,0:00:25.330
+And each one of which has a majors array, which we can see right here, and well,
+
+0:00:25.330,0:00:27.520
+as a few other key values.
+
+0:00:27.520,0:00:30.220
+After our schools, we have our online courses.
+
+0:00:31.250,0:00:34.320
+Online courses is an array of objects.
+
+0:00:34.320,0:00:37.310
+Here we have one online course, which is,
+
+0:00:37.310,0:00:40.210
+well, the one you're taking right now, JavaScript syntax.

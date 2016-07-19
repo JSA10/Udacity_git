@@ -1,0 +1,148 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Title TBC</title>
+  </head>
+  <body>
+    <p>
+      <h1>Introduction to Programming Lesson 1 and 2 notes: <br>
+         <em>The basics of the web, HTML and using it to structure webpages</em><h1>
+    </p>
+    <div class="context">
+      <p>
+      <h2> World Wide Web (WWW): A web of html documents </h2>
+        <p>
+          <ul>
+          <li>The WWW consists of html documents (Hyper Text Markup Language)</li>
+          <li>These are connected to each other using links (URLs)</li>
+          <li>HTML documents can contain a variety of content types: e.g. text, images, music or video.</li>
+          </ul>
+        </p>
+      </p>
+    </div>
+    <div class="internet">
+      <h2> How does the internet work? </h2>
+        <p> Imagine three separate stages in a process, starting with a person on a laptop on the left
+            and ending with giant servers that store all the html coded content previously discussed.
+            The internet is the glue in the middle that enables web browsers on people's laptops to connect with and find content stored on these servers.
+            Content is created and structured using html and url link identifiers enable location. A technology called <strong>"Hyper Text Transfer Protocol" (HTTP) enables the internet to communicate with the servers.</strong>
+        </p>
+        <p>
+            HTTP forms the connection with servers, allowing individual web browsers to find and translate the files stored on them into
+            content that can be displayed for and used by people.
+        </p>
+    </div>
+    <div class="html overview">
+      <p>
+      <h2> Understanding HTML </h2>
+        <p>
+            <h3>HTML is made up of four elements: </h3>
+              <ol><li>Text content (that you see on a web page)</li><br>
+              <li>Markups (code that determines what it looks like)</li><br>
+              <li>References to other documents (images / videos)</li><br>
+              <li>Links to other pages</li>
+              </ol>
+        </p>
+      </p>
+    </div>
+    <div class="">
+      <p>
+      <h3>HTML tags:</h3>
+        <p> <b>Structure:</b> Tags consist of an opening tag, followed by visible content, closed with a matching second tag <br>
+            Each pair of opening and closing tags can be thought of as an <em> element. </em>
+
+            <b>Attributes:</b> Tags can have attributes, a common example is the anchor tag, which can be assigned links.<br>
+            <br>
+            <b>Void Tags:</b> Image tags are examples of void tags. Void tags have no text 'content' so don't
+            need closing tag. NOTE: Image tags contain two attributes: A URL link to actual image,
+            plus an alternative message in case image doesn't load, or as a marker for the blind. <br>
+            <br>
+            <b>Whitespace:</b> Multiple lines in html code will make no difference to output as all whitespace
+            is ignored (but for a single standard space in the text).
+            Use break to insert a break (another void tag). Can also use the paragraph tag. <br>
+            <br>
+            <b>Inline vs. Block:</b> HTML code can work inline, within the text itself e.g. break, emphasis or image <br>
+              Or it can effectively place a wrapper around a block of content e.g. paragraph.  <br>
+            <br>
+            <b>Container tags:</b> These are tags that don't do anything themselves but contain content and attributes.
+            Examples are span tag (inline) or div tag (block). Both can have attributes added to them, like css code to change style and design.
+        </p>
+      </p>
+    </div>
+    <div class="inline_v_block">
+      <p>
+      <h3>Examples of inline vs. block tags: </h3>
+            <ul>
+            <li><b>Inline:</b> anchor, span, break, image, and strong</li>
+            <li><b>Block:</b> while divide, paragraph, and form</li>
+            </ul>
+      </p>
+    </div>
+    <div class="lesson2_header">
+      <h1>Lesson 2: Creating structure in a website with HTML</h1>
+    </div>
+    <div class="Lesson2 intro">
+      <h2>HTML, CSS & Javascript are building blocks of websites</h2>
+      <p>
+        <b>Think of a website as a house: </b>
+        <p>
+        <strong>HTML is the structure</strong> - where the walls are, how many rooms etc.
+        CSS is the style - the colours of the walls, what wallpaper or flooring there is
+        Javascript is the interactive elements that can change things within your house - e.g. tv remote, garage door opener - cha
+        </p>
+      </p>
+    </div>
+    <div class="dev tools">
+      <h2>Inspecting live html with web inspectors</h2>
+      <p>
+        <b>When exploring a wikipedia page using developer tools we can observe that:</b>
+        <ol>
+        <li>All html is rectangular</li>
+        <li>We can drill down to specific text that has displayed on the page</li>
+        <li>By using the style panes we can drill down to font sizes and types, border sizes etc.</li>
+        <! -- (To access style section: visible on chrome dev tool, in the far right icon in safari web inspector) --!>
+        </ol>
+      </p>
+    </div>
+    <div class="tree structure">
+      <h2>HTML follows a tree like structure</h2>
+        - with each new 'branch' nested within the previous one
+        - can use the parent, child analogy too
+        - we mapped out a very simple one
+    </div>
+    <div class="HTML & CSS">
+      <h2>HTML-CSS-DOM</h2>
+      <ol>
+        <li>HTML and CSS are both "languages"</li>
+        <li>HTML controls the "structure" of a web page</li>
+        <li>CSS controls the "style" of a page (how it looks).</li>
+        <li>When programmers talk about the "DOM" (Document Object Model) they are
+        talking about the tree-like structure of a page.</li>
+      </ol>
+    <p>
+    </p>
+      HTML is the language of the web, with set syntax and rules
+      html uses tags to form elements, to form a tree structure that the browser can display
+
+      CSS also follows syntax and rules.
+      CSS used within the struture of html tags to define style
+    </div>
+    <div class="boxifying design">
+      <h2>Everything in html is boxes.</h2>
+      <p>
+        Many options to combine to make very 'unboxlike' things but need to understand the principle and need to
+        <strong>'boxify' design</strong>
+      </p>
+      <p>
+        <strong>Start with a plan, then build structure:</strong>
+        <ol>
+          <li>Get the paper out - start drawing key points and structure on paper, much like an essay or project plan</li>
+          <li>Split the paper page into boxes and annotate what goes into them</li>
+          <li>When get to setting out in html use container tags e.g. &lt;div class = ""&gt;placeholder&lt;/div&gt;</li>
+          <li {margin-left: 40px;}>The class attribute is metadata describing what this container or box holds</li>
+        </ol>
+      </p>
+    </div>
+  </body>
+</html>

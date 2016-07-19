@@ -1,0 +1,29 @@
+0:00:00.530,0:00:03.090
+First off, congratulations!
+
+0:00:03.090,0:00:06.260
+You've just started your first project in your portfolio.
+
+0:00:06.260,0:00:10.880
+And now for the answer, when I refresh the page you'll see that all of
+
+0:00:10.880,0:00:14.470
+the text in the description box turned red.
+
+0:00:14.470,0:00:16.059
+Okay, that was interesting.
+
+0:00:16.059,0:00:17.980
+And we've learned a little bit about style.
+
+0:00:17.980,0:00:20.410
+But let's remove this style from the file for
+
+0:00:20.410,0:00:23.700
+now because we don't actually want the text to be red.
+
+0:00:23.700,0:00:26.010
+It's pretty hard on the eyes.
+
+0:00:26.010,0:00:29.430
+Let's next talk about how CSS works and how to use it.

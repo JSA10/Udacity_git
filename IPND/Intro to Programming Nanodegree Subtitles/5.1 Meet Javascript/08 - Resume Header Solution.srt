@@ -1,0 +1,50 @@
+0:00:00.160,0:00:01.950
+And here's the code that we use to do that.
+
+0:00:03.560,0:00:06.445
+Now, you might remember form edit name from before.
+
+0:00:06.445,0:00:08.427
+And we added form edit role.
+
+0:00:08.427,0:00:15.061
+Now, to create our form edit role, we took html header role.replace,
+
+0:00:15.061,0:00:21.940
+and we replaced the data placeholder with the role that we created up here.
+
+0:00:23.460,0:00:26.400
+So, this next bit of code is a little bit tricky.
+
+0:00:26.400,0:00:29.740
+So, over here we have our header div.
+
+0:00:29.740,0:00:33.950
+We can see that header already has an unorder list inside of it.
+
+0:00:33.950,0:00:37.600
+So, if we pin the data, it would actually put the data right here.
+
+0:00:38.690,0:00:43.580
+We want it to show at the beginning of our header tag, right here.
+
+0:00:45.010,0:00:47.760
+In order to add elements to the beginning,
+
+0:00:47.760,0:00:51.350
+we actually need to use prepend instead of append.
+
+0:00:52.580,0:00:56.240
+So, we want our name to appear first and our role to appear second.
+
+0:00:57.980,0:01:03.060
+So running through this code, when we append our form edit role,
+
+0:01:03.060,0:01:04.739
+it'll show up at the top here.
+
+0:01:07.930,0:01:12.000
+And then when we prepend our name, instead of showing it
+
+0:01:12.000,0:01:17.290
+at the end as append would, it will insert it in the beginning.

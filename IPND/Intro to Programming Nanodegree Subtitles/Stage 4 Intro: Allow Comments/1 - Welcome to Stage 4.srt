@@ -1,0 +1,26 @@
+0:00:00.037,0:00:03.010
+Up till now your webpage has only[br]been available on your own computer,
+
+0:00:03.010,0:00:05.150
+and you haven't been able[br]to share it with anyone.
+
+0:00:05.150,0:00:07.370
+That's not a ton of fun,[br]so in this stage,
+
+0:00:07.370,0:00:10.260
+you're actually going to[br]put your website online.
+
+0:00:10.260,0:00:13.160
+And make it interactive, so that the[br]users who visit your page can change it.
+
+0:00:14.170,0:00:16.280
+Doing this is going to require[br]that you set up a server,
+
+0:00:16.280,0:00:18.490
+which isn't nearly as hard as it sounds.
+
+0:00:18.490,0:00:22.568
+And write some server-side code that[br]handles the request from the users that
+
+0:00:22.568,0:00:23.766
+have to see your page.

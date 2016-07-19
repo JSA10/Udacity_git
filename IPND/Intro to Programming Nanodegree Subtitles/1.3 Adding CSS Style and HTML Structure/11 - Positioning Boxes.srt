@@ -1,0 +1,74 @@
+0:00:00.240,0:00:02.490
+As you observed in the previous exercise,
+
+0:00:02.490,0:00:05.850
+even when you define the width of the divs, they still were
+
+0:00:05.850,0:00:11.040
+displayed one under another, as if they were taking the whole width of the page.
+
+0:00:12.260,0:00:13.480
+This isn't what you want,
+
+0:00:13.480,0:00:16.670
+meaning that you need to do some positioning of the boxes.
+
+0:00:16.670,0:00:20.180
+There's a lot of power in CSS to position elements.
+
+0:00:20.180,0:00:25.650
+However, it is probably one of the most complicated concepts about CSS.
+
+0:00:25.650,0:00:29.040
+Now, we'll just cover one powerful technique, and
+
+0:00:29.040,0:00:32.229
+that's how to use the flex box layout.
+
+0:00:32.229,0:00:37.380
+Flex box means flexible box and it provides an efficient way to lay out,
+
+0:00:37.380,0:00:42.060
+align, and distribute space among items in a container or div.
+
+0:00:42.060,0:00:47.530
+Now remember in our mock layout that we have our image next to our description.
+
+0:00:47.530,0:00:50.480
+If you want several elements to be next to each other,
+
+0:00:50.480,0:00:56.080
+you can change the display attribute of the parent container to value flex.
+
+0:00:56.080,0:01:00.229
+Looking here at our app, we have our parent div class app.
+
+0:01:01.330,0:01:05.360
+And here we can add display flex.
+
+0:01:05.360,0:01:05.990
+Wow!
+
+0:01:05.990,0:01:09.660
+That made the child elements try and align next to each other.
+
+0:01:09.660,0:01:12.910
+For it to work you also have to give the items a size that
+
+0:01:12.910,0:01:15.660
+is smaller than the default 100%.
+
+0:01:15.660,0:01:18.620
+But you already did that in the last exercise.
+
+0:01:18.620,0:01:21.910
+Be sure to check out all of the cool features of flex box in
+
+0:01:21.910,0:01:24.890
+the links included in the instructor note section.
+
+0:01:24.890,0:01:25.860
+Then it's time for
+
+0:01:25.860,0:01:30.600
+you to use this magic and finally make the boxes on your page behave properly

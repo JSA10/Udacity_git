@@ -1,0 +1,20 @@
+CLI Refresher
+
+pwd  #Print the location of the current directory (or working directory)
+ls
+open  #mac command to open file
+cd  #save time by chaining folders e.g. docs/ud/ipnd
+cd ..
+mkdir <newfolder> OR currentfolder/newfolder
+touch new_file.txt OR currentfolder/newfile.txt
+rm <filename>  #note this deletes completely - skips trash bin
+rm file1.txt file2.txt file3.txt
+rmdir <directory_name>  #Only works on empty directories
+rm -rf  # ••••• BE VERY CAREFUL WITH THIS REMOVE WITH FORCE COMMAND
+# rf stands for recursive force and is used to delete directory + all files and folders
+# It doesn't ask for confirmation and you can't retrieve items from trash
+
+Udacity recommend running Python code in command line as cleanest and easiest way to do so
+Process: Write code in text editor saved as .py, navigate to folder using above commands and type
+
+python <name_of_file.py>

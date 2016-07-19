@@ -1,0 +1,16 @@
+Box Sizing and Positioning Summary
+You can find more resources in the example webpage I've made.
+
+Box Sizing
+There are four main points that Jessica addressed about box sizing.
+
+HTML elements are boxes and each box has 4 components.
+Because there are so many components to each box, it can often be hard to get the size of a box just right.
+There are two techniques you can use to help deal with sizing issues.
+
+Set sizes in terms of percentages rather than pixels.
+Set the box-sizing attribute to border-box for every element.
+Different browsers work slightly differently. Sometimes this causes different browsers to display the same code differently.
+Box Positioning
+Divs are block elements (as opposed to inline), so by default they take up the entire width of a page.
+Adding the rule display: flex; to the appropriate CSS will override this behavior and let divs appear next to each other.

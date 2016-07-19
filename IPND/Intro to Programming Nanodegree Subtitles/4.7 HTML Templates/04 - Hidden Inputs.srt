@@ -1,0 +1,65 @@
+0:00:00.300,0:00:04.430
+And the correct answer is we see two values in the URL,
+
+0:00:04.430,0:00:08.050
+the value we submitted and the value we hardcoded in our code.
+
+0:00:08.050,0:00:10.090
+So let's take a quick look at this again.
+
+0:00:10.090,0:00:14.200
+Recall that in our code, I added this extra input type hidden, name equals food,
+
+0:00:14.200,0:00:18.300
+which matches this name and the value eggs, hardcoded.
+
+0:00:18.300,0:00:24.000
+And then in our browser, when I click steak, the URL updates to have both steak,
+
+0:00:24.000,0:00:27.020
+the one we've just added, and eggs in the URL.
+
+0:00:27.020,0:00:29.340
+Let's try a few more examples while we're here.
+
+0:00:29.340,0:00:31.837
+Let me try adding pizza.
+
+0:00:31.837,0:00:35.669
+You can see steak, the one that came from us, changed to pizza, and
+
+0:00:35.669,0:00:37.330
+eggs remained.
+
+0:00:37.330,0:00:39.950
+Let's see also what happens if I type in eggs.
+
+0:00:39.950,0:00:41.280
+Now we get eggs twice.
+
+0:00:41.280,0:00:44.560
+So you can see we always have the value that was in our hidden elements
+
+0:00:45.990,0:00:49.810
+in the URL and then what came from the user is also there.
+
+0:00:49.810,0:00:52.730
+But we can't add multiple things quite yet.
+
+0:00:52.730,0:00:55.530
+To be honest with you, I wasn't actually sure what was going to happen when I
+
+0:00:55.530,0:00:56.900
+was writing this lesson plan.
+
+0:00:56.900,0:01:00.870
+Just happened to work out in a, in a way that I could make a nice example.
+
+0:01:00.870,0:01:03.580
+And just goes to show you, you know, some of the stuff is a little tricky, but
+
+0:01:03.580,0:01:06.610
+it's very easy to just play around in your editor and
+
+0:01:06.610,0:01:09.680
+in your browser to actually, you know, see what happens.

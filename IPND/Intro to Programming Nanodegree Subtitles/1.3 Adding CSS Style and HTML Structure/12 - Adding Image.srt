@@ -1,0 +1,53 @@
+0:00:00.430,0:00:02.710
+The page is starting to look more like the design,
+
+0:00:02.710,0:00:05.030
+but we're still missing the image.
+
+0:00:05.030,0:00:09.730
+To use the image, you have to store it somewhere where the page can access it.
+
+0:00:09.730,0:00:15.250
+Make a folder called images inside your Project folder and put the image there.
+
+0:00:15.250,0:00:20.396
+Make sure the image name does not contain any spaces or accented characters or
+
+0:00:20.396,0:00:23.733
+else, it will make linking to it more difficult.
+
+0:00:23.733,0:00:27.178
+You can add the image to the page with the tag img and
+
+0:00:27.178,0:00:30.310
+providing the source of the image, like so.
+
+0:00:30.310,0:00:35.990
+You should also always provide this alt attribute, which displays alternate
+
+0:00:35.990,0:00:40.720
+information to the screen in case the browser cannot display the image.
+
+0:00:41.760,0:00:43.160
+Once you have added the image,
+
+0:00:43.160,0:00:46.449
+the page look a lot more like the actual design mock.
+
+0:00:47.670,0:00:50.650
+But how does our page still differ from the design mock?
+
+0:00:51.820,0:00:55.640
+Is the header background and text color still different?
+
+0:00:56.720,0:01:00.420
+Are the margins and padding for the boxes still different?
+
+0:01:01.440,0:01:04.250
+What about the borders of the boxes?
+
+0:01:04.250,0:01:07.290
+What about the font size and style?
+
+0:01:07.290,0:01:08.900
+Do we still need to update those?

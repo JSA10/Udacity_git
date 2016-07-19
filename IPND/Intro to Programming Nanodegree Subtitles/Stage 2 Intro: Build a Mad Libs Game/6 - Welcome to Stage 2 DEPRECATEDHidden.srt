@@ -1,0 +1,11 @@
+0:00:00.420,0:00:03.469
+In this stage, you'll learn to use[br]a programming language called Python,
+
+0:00:03.469,0:00:06.830
+to automatically generate the HTML for[br]your webpage.
+
+0:00:06.830,0:00:10.380
+Now, in doing this, you'll learn[br]how to use a computer to do one
+
+0:00:10.380,0:00:15.250
+of the things it's best at, doing really[br]repetitive tasks really, really quickly.

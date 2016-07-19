@@ -1,0 +1,14 @@
+0:00:00.330,0:00:02.770
+Welcome to the introduction[br]of programming nanodegree.
+
+0:00:02.770,0:00:04.630
+You're here because you[br]want to learn to code.
+
+0:00:04.630,0:00:07.560
+So before we dive into any of the[br]details about what this nanodegree is
+
+0:00:07.560,0:00:12.520
+about, you're going to experience coding[br]by making your very first webpage.
+
+0:00:12.520,0:00:14.050
+Follow the instructions[br]that come up on the screen.

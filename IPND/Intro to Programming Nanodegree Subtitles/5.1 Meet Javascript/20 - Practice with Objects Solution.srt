@@ -1,0 +1,23 @@
+0:00:00.690,0:00:05.700
+So, as you can see here, I've added my work information using dot notation, and
+
+0:00:05.700,0:00:09.880
+my education information using bracket notation.
+
+0:00:09.880,0:00:14.070
+When we go over and refresh the page, we can see that information displayed.
+
+0:00:15.280,0:00:15.780
+Awesome.
+
+0:00:16.910,0:00:20.434
+>> Notice how, even though James used dot notation to define his work object,
+
+0:00:20.434,0:00:24.380
+he could still access its properties using bracket notation.
+
+0:00:24.380,0:00:28.660
+And, even though James used bracket notation to define his education object,
+
+0:00:28.660,0:00:31.270
+you could access its properties using dot notation.

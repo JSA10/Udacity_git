@@ -1,0 +1,167 @@
+0:00:00.360,0:00:02.490
+Before we go on,[br]let me introduce myself.
+
+0:00:02.490,0:00:05.600
+My name's Andy, and three years ago,[br]I couldn't code at all.
+
+0:00:05.600,0:00:07.450
+Now I can, and[br]I want to tell you how that happened.
+
+0:00:08.480,0:00:12.040
+I graduated from college in[br]2009 with a degree in physics.
+
+0:00:12.040,0:00:14.790
+And I had no coding skill at all.
+
+0:00:14.790,0:00:18.300
+And at the time, I was actually[br]pretty intimidated by programming.
+
+0:00:18.300,0:00:21.290
+Even though I didn't start[br]learning to code until 2012,
+
+0:00:21.290,0:00:25.560
+these three years from 2009 to 2012,[br]are relevant to how I learned to code.
+
+0:00:25.560,0:00:30.300
+Because it was during this time that[br]I was doing a lot of teaching and
+
+0:00:30.300,0:00:33.380
+a lot of learning about[br]how people learn.
+
+0:00:33.380,0:00:37.110
+And I learned something that would wind[br]up being incredibly important to me.
+
+0:00:37.110,0:00:39.380
+When I would eventually learn to code.
+
+0:00:39.380,0:00:43.120
+I learned that anyone[br]can learn anything.
+
+0:00:43.120,0:00:46.460
+Well, just about anyone can[br]learn just about anything.
+
+0:00:46.460,0:00:49.160
+But for the most part, this is true,
+
+0:00:49.160,0:00:52.780
+because even though everyone has[br]different backgrounds and experiences
+
+0:00:52.780,0:00:57.120
+when you get down to the level of[br]brains they're all very similar.
+
+0:00:57.120,0:01:00.680
+And our brain is also this[br]incredibly flexible thing.
+
+0:01:00.680,0:01:05.519
+By giving it the right input you[br]can actually change your brain and
+
+0:01:05.519,0:01:07.510
+make it do whatever you want.
+
+0:01:07.510,0:01:08.996
+But, that's enough about the brain.
+
+0:01:08.996,0:01:12.620
+After three years of teaching and[br]learning, sometime in early February of
+
+0:01:12.620,0:01:16.050
+2012, I heard about this new[br]education company called Udacity.
+
+0:01:16.050,0:01:18.640
+That was actually what the logo[br]looked like at the time.
+
+0:01:18.640,0:01:22.700
+I didn't know much about it, but online[br]education sounded really interesting, so
+
+0:01:22.700,0:01:24.420
+I emailed someone who worked there.
+
+0:01:24.420,0:01:26.860
+Three days later,[br]I was on a plane to San Francisco.
+
+0:01:26.860,0:01:28.570
+It was very exciting.
+
+0:01:28.570,0:01:31.490
+But things at Udacity were[br]pretty chaotic back then, and
+
+0:01:31.490,0:01:33.890
+nobody had even told me[br]what my job would be,
+
+0:01:33.890,0:01:38.460
+though I assumed it had something to[br]do with education and maybe technology.
+
+0:01:38.460,0:01:40.800
+Either way,[br]February 15th was my first day of work,
+
+0:01:40.800,0:01:42.510
+and I would figure it out then.
+
+0:01:42.510,0:01:46.000
+That morning, I got dropped off at[br]our office, which, at the time,
+
+0:01:46.000,0:01:48.388
+was just Sebastian, who's our CEO.
+
+0:01:48.388,0:01:50.050
+It was his house.
+
+0:01:50.050,0:01:53.920
+So, I walk to the door, I still didn't[br]know what my role would be, but
+
+0:01:53.920,0:01:56.430
+that was going to change[br]in about 30 seconds.
+
+0:01:56.430,0:01:58.690
+I rang the bell and Sebastian answered.
+
+0:01:58.690,0:02:00.870
+Our conversation went[br]something like this.
+
+0:02:00.870,0:02:04.740
+He told me that I would be the assistant[br]instructor for the course he was making.
+
+0:02:04.740,0:02:07.580
+This was news to me, but[br]I was trying to play it cool.
+
+0:02:07.580,0:02:11.330
+So I asked him to remind me of[br]the title and then he told me.
+
+0:02:11.330,0:02:16.400
+The course was called CS373 How[br]to Program a Robotic Car.
+
+0:02:17.790,0:02:18.800
+And I was terrified.
+
+0:02:18.800,0:02:22.080
+I didn't know anything about[br]programming or robotics.
+
+0:02:22.080,0:02:26.850
+And I might have quit right then,[br]if I hadn't remembered that lesson.
+
+0:02:26.850,0:02:30.830
+And because I really believe[br]that anyone can learn anything,
+
+0:02:30.830,0:02:33.400
+I started learning and[br]I haven't stopped.
+
+0:02:33.400,0:02:35.410
+And now, here I am today.
+
+0:02:35.410,0:02:39.730
+Very, very excited to be assembling[br]the resource I wish I had had
+
+0:02:39.730,0:02:40.940
+three years ago.
+
+0:02:40.940,0:02:45.250
+Now, you may be thinking, why should[br]I entrust my programming education
+
+0:02:45.250,0:02:48.730
+to someone who only has[br]three years of experience?
+
+0:02:48.730,0:02:51.020
+And the answer is,[br]you shouldn't and you aren't.
+
+0:02:51.020,0:02:52.730
+Let me explain how this[br]non-degree is going to work.

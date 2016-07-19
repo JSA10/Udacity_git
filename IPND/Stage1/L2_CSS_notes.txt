@@ -1,0 +1,85 @@
+CSS: Cascading Style Sheets
+  - named as they contain information that shapes the style of a page and come from separate sheets that can be structured in a cascading manner
+  - similar to a tree structure but specifications within one can be applied to all or focused to specific sections
+
+CSS style sheet added explicitly within the html header:
+  <!-- <link rel="stylesheet" href="style.css"> -->
+
+Within CSS the coding structure is "property:value;" e.g. color:red;
+  Syntax: enclose within { }
+          can focus to a specific section with its identifier e.g. h2 or class attribute
+          e.g. for a div section that was called <div class = description>, the CSS code to style just that section would be
+              .description {
+                color: red;
+              }
+Exercise font-style = normal / italic / oblique.
+         font-weight needed to make text bold
+
+Check Andy's notes for more in depth on CSS vocabulary, how to select classes and three option for including CSS on a page
+  tl;dr
+    Method 1: include CSS in the head of your html
+      + Good for small projects
+      - Would lead to repetition for many pages
+      This is what I did for stage0 project
+
+    Method 2: Link html to separate CSS file
+    + Helps you stay organised
+    - is still an extra step
+    See example above - essentially need to add a link tag within the header
+
+    Method 3: Write CSS inline with your HTML
+    - leads to LOTS of repeated code
+    + just need to be familiar with this method as may well see other code that uses this method
+
+Notes from CSS style sheet, with some code examples:
+
+    /* This is a CSS comment.*/
+    /*.description {color: red;}/*
+
+  Everything is boxes - so box size is an important calculation
+    Box size doesn't just include the content itself but also three layers (below goes from in to out)
+    content
+    padding
+    border
+    margin
+
+    *{
+      box-sizing: border-box;
+      }
+    this makes calculations of box size include all extras: margin, border, padding and content
+
+    Note - this is a new feature so need to ensure it works across browsers by specifying in advance
+    - Do this by referecning:
+      webkit
+      moz
+      ms
+        Complete code would be
+          *{
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          -ms-box-sizing: border-box;
+          box-sizing: border-box;
+          }
+    /*
+    Using pixels to size boxes means that the parameters will never change, which could lead to a bad user experience as screen sizes change.
+    Can also use a % figure which will evolve.
+
+
+
+Throughout this lesson we have been following a simple process of Code-Test-Refine
+
+Start with structure of page
+  - Start from design - visually boxify
+  - then the tags
+  - then size of boxes
+  - positioning of boxes
+  - final details
+
+When translating a design use a 5 step process
+1 - Look for natural boxes
+2 - Look for repeated styles and semantic elements (e.g. H2s)
+3 - Write your HTML
+4 - Apply styles
+5 - Fix things
+
+During the process, repeat steps 4 and 4 until code replicates the design exactly

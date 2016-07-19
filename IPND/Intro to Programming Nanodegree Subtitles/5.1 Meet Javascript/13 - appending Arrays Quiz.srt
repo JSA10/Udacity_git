@@ -1,0 +1,17 @@
+0:00:00.330,0:00:03.490
+We're just learing about truthy and falsey values.
+
+0:00:03.490,0:00:06.060
+Let's apply that to what we know about arrays.
+
+0:00:06.060,0:00:09.520
+Is the length of an array equal to the last index?
+
+0:00:09.520,0:00:11.340
+Mark yes or no here.
+
+0:00:11.340,0:00:13.560
+>> And, to find the length of an array,
+
+0:00:13.560,0:00:16.660
+simply add .length to the end of the array name

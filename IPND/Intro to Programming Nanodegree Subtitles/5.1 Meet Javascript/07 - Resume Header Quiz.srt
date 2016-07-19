@@ -1,0 +1,44 @@
+0:00:00.300,0:00:02.250
+For this quiz, you're going to be putting your name and
+
+0:00:02.250,0:00:07.520
+your role to the top of your resume using the same technique James just used.
+
+0:00:07.520,0:00:10.850
+You'll start by replacing %data% and
+
+0:00:10.850,0:00:16.710
+HTML header name and HTML header role with your name and your role.
+
+0:00:16.710,0:00:19.790
+In this case, the role is the type of job your looking for.
+
+0:00:19.790,0:00:21.590
+So for me, I would have Web Developer.
+
+0:00:22.670,0:00:27.810
+You can find the strings HTMLheaderName and HTMLheaderRole within helper JS.
+
+0:00:29.380,0:00:33.847
+Once you're done, you will either append or prepend the formatted name and
+
+0:00:33.847,0:00:36.650
+formatted role to the page header.
+
+0:00:36.650,0:00:39.915
+Now, append adds something to the end of HTML.
+
+0:00:39.915,0:00:42.690
+While prepend adds something to the beginning of HTML.
+
+0:00:42.690,0:00:46.000
+For this quiz, you might need to experiment with append and
+
+0:00:46.000,0:00:48.630
+prepend to get a feel for both of them.
+
+0:00:48.630,0:00:53.220
+Once you see your name in roll appear on the page correctly, check this box.
+
+0:00:53.220,0:00:55.920
+And when you do it right, your resume should look something like this.

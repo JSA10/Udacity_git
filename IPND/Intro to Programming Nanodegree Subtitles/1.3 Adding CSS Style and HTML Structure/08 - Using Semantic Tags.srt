@@ -1,0 +1,20 @@
+0:00:00.320,0:00:05.960
+When you change the DIV tag to an H1 tag, the text should have changed in size,
+
+0:00:05.960,0:00:09.000
+and also the box around the text should have changed.
+
+0:00:10.510,0:00:15.050
+Looking at this in the browser, when we change this DIV tag to H1,
+
+0:00:16.170,0:00:22.410
+save the file, and refresh our browser, we see that the text got bigger,
+
+0:00:22.410,0:00:26.750
+and we also have extra space above and below the text.
+
+0:00:26.750,0:00:31.690
+We can verify this in Developer tools by mousing over H1,
+
+0:00:31.690,0:00:37.280
+and you'll see that we have a rectangle around the My App title.

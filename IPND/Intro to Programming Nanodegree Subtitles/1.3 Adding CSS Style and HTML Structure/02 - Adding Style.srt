@@ -1,0 +1,119 @@
+0:00:00.700,0:00:05.850
+Okay, so opening our file in the browser is probably not what you expected.
+
+0:00:05.850,0:00:11.490
+Looking at it in developer tools, the structure is exactly as you defined it,
+
+0:00:11.490,0:00:13.940
+but the style description isn't there and
+
+0:00:13.940,0:00:18.996
+the browser uses it's default style for all of the elements, and as you can see,
+
+0:00:18.996,0:00:25.520
+it's not very pretty and the visual layout is completely off as well.
+
+0:00:25.520,0:00:27.320
+Let's go ahead and add in some styles.
+
+0:00:27.320,0:00:31.690
+Do you remember earlier when I talked about the HTML file telling
+
+0:00:31.690,0:00:34.640
+the browser where to find the style information?
+
+0:00:34.640,0:00:36.570
+Yeah, we need to add that.
+
+0:00:36.570,0:00:40.950
+First, you need to add a single line at the start of the HTML file.
+
+0:00:40.950,0:00:45.860
+This tells the browser that the type of document is an HTML document.
+
+0:00:45.860,0:00:50.980
+Then you need to add the top level tag html because everything here
+
+0:00:50.980,0:00:56.240
+is html and don't forget, every time we have the start tag,
+
+0:00:56.240,0:01:01.680
+we also need to have the end tag and then, so our code is easier to read, we'll
+
+0:01:01.680,0:01:07.840
+indent our HTML structure so that it's located in between our two html tags.
+
+0:01:07.840,0:01:11.610
+After the html tag we need to add a head tag.
+
+0:01:11.610,0:01:15.290
+This is where you'll add the link to the style file.
+
+0:01:15.290,0:01:21.230
+To add a link to the style file, we start typing, link, and then hit Tab.
+
+0:01:21.230,0:01:26.150
+Here, Sublime Text has automatically filled in all of the information we need,
+
+0:01:26.150,0:01:30.610
+except for the name of the file that contains our style information, which,
+
+0:01:30.610,0:01:33.414
+in this case, is called style.css.
+
+0:01:34.470,0:01:39.090
+After the closure of the head tag, we then add the body tag.
+
+0:01:39.090,0:01:43.680
+Now, contained within our body tags will be our HTML structure that we
+
+0:01:43.680,0:01:44.850
+wrote before.
+
+0:01:44.850,0:01:48.070
+So we need to move this code in between our body tags.
+
+0:01:48.070,0:01:52.650
+Again, for code readability, we've indented the html structure.
+
+0:01:52.650,0:01:55.090
+So that we have a bit more to look and
+
+0:01:55.090,0:01:58.740
+work with, let's replace the placeholder description with some text.
+
+0:01:58.740,0:02:01.410
+You can choose to write your own text or
+
+0:02:01.410,0:02:04.540
+simply use what we provided in the Instructor notes.
+
+0:02:04.540,0:02:08.759
+Once the text is added, save the file and then refresh your browser page.
+
+0:02:09.900,0:02:13.500
+You can see that it updated with the text that we've included and
+
+0:02:13.500,0:02:17.050
+since you've linked your style sheet to your HTML file,
+
+0:02:17.050,0:02:22.990
+you can go to the style.css file and add some style to the page,
+
+0:02:22.990,0:02:26.760
+and just for fun, how about we add the following style.
+
+0:02:26.760,0:02:29.310
+Save the file and refresh your browser.
+
+0:02:29.310,0:02:31.830
+Then tell me what happened.
+
+0:02:31.830,0:02:35.920
+Did the box with class description turn red?
+
+0:02:35.920,0:02:38.910
+Did all text turn red, or
+
+0:02:38.910,0:02:44.470
+did the text in the description box turn red, or did nothing happen?

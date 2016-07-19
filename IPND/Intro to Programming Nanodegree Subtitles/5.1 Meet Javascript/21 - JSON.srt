@@ -1,0 +1,68 @@
+0:00:05.231,0:00:08.160
+Okay. So how do you want to cover nested information?
+
+0:00:08.160,0:00:10.260
+>> I mean, it's not too tricky.
+
+0:00:10.260,0:00:11.320
+You know what?
+
+0:00:11.320,0:00:14.040
+Let's use object literal notation here.
+
+0:00:14.040,0:00:18.280
+You could accomplish the same thing using dot or bracket notation.
+
+0:00:18.280,0:00:21.360
+But, I want to show the students a really useful tool for making sure your
+
+0:00:21.360,0:00:25.690
+data are formatted properly which relies on object literal notation.
+
+0:00:25.690,0:00:26.900
+>> So you mean JSON?
+
+0:00:26.900,0:00:27.670
+>> Yep.
+
+0:00:27.670,0:00:30.410
+JavaScript Object Notation.
+
+0:00:30.410,0:00:31.160
+Hey James?
+
+0:00:31.160,0:00:33.490
+You had two majors, right?
+
+0:00:33.490,0:00:36.530
+Let's make it a JSON object that shows nested data.
+
+0:00:36.530,0:00:37.360
+Okay.
+
+0:00:37.360,0:00:42.140
+So, I'm seeing one big object with one property called schools.
+
+0:00:43.740,0:00:47.050
+In schools is a list of two objects, we know it's a list because we
+
+0:00:47.050,0:00:49.710
+have these square brackets here, indicating it's an array.
+
+0:00:51.000,0:00:56.920
+The first object has the name Eckerd College, City of St. Pete and so on.
+
+0:00:57.990,0:01:01.880
+The second object has a name of Nova Southeastern.
+
+0:01:01.880,0:01:03.150
+In the city of Fort Lauderdale.
+
+0:01:05.200,0:01:07.060
+This looks like a good JSON to me.
+
+0:01:07.060,0:01:08.460
+Mind if we check it?
+
+0:01:08.460,0:01:08.960
+>> Not at all.

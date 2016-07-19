@@ -1,0 +1,17 @@
+0:00:00.290,0:00:02.550
+To start the new width goes here.
+
+0:00:02.550,0:00:04.390
+The new height goes right here.
+
+0:00:04.390,0:00:07.380
+And I type the device[br]pixel ratio in right here.
+
+0:00:07.380,0:00:11.230
+For the user agent string I simply[br]pasted into the box right here.
+
+0:00:11.230,0:00:14.110
+And then I got this message[br]that I needed to reload.
+
+0:00:14.110,0:00:16.940
+And ta da,[br]I've got my view port set correctly

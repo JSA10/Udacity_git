@@ -1,0 +1,66 @@
+PART 3
+DUEJUL 11
+Project Submission
+In this stage, you'll use a computer language called HTML and CSS and notes about the new concepts and skills you've learned so far to make your web page look professional!
+
+Ready to submit? Follow these instructions!
+
+Code Review
+Your reviewer will look at the code you've written and provide feedback on:
+
+Use of Syntax: All of your HTML and CSS should be properly formatted and should pass HTML validation and CSS validation tests.
+
+IMPORTANT: Please read the Instructor Notes below for further instructions on HTML validation.
+
+Use of Logical HTML Structure: Content that is logically related should be grouped together within a container element (like a <div> or <span>). Additionally, all tags should be used for their semantic purpose (ex: don't use a <p> tag to make a headline).
+Use of HTML Classes and CSS Styling: There shouldn't be any unnecessary repetition in your CSS code. Similar HTML elements should have the same class name.
+
+IMPORTANT: You MUST include a CSS file in your project submissions. We want you to practice linking CSS in your HTML. Simply using <style> tags is not sufficient enough to demonstrate your knowledge of linking CSS to your HTML file.
+The rubric that will be used is included below. If you cannot see the image below, go to the project rubrics page here.
+
+
+
+rubric
+
+Udacity Logo
+Logout
+PROJECT SPECIFICATION
+Make a Web Page
+
+Code Review
+
+CRITERIA
+MEETS SPECIFICATIONS
+Use of Syntax
+
+HTML and CSS files pass an automated validation check
+
+Logical HTML Structure
+
+Conceptually related content is contained within a container element (<span> or <div> for example)
+
+HTML Classes
+
+Related container elements have the same class name
+
+CSS Styling
+
+Class names are used in the CSS to style related elements
+
+Use of HTML Tags
+
+Page uses tags appropriately (<p> for paragraphs, <h1> for first header, etc.)
+
+Content Review
+
+CRITERIA
+MEETS SPECIFICATIONS
+Content Display
+
+Page displays at least 1 picture and some text
+
+Suggestions to Make Your Project Stand Out!
+Create multiple HTML pages and link them together with a top menu
+
+ English
+Student FAQ
