@@ -1,3 +1,5 @@
+
+
 select animals.name, animals.species, diet.food
        from animals join diet
        on animals.species = diet.species;
@@ -276,6 +278,26 @@ c.execute("insert into balloons values ('blue', 'water') ")
 db.commit()
 db.close()
 
+"""
+Before:
++-------+----------+
+| color | contents |
++=======+==========+
+|   red |      air |
+| green |   helium |
++-------+----------+
+
+After:
++-------+----------+
+| color | contents |
++=======+==========+
+|   red |      air |
+| green |   helium |
+|  blue |    water |
++-------+----------+
+"""
+
+
 
 ### vagrant command line
 
@@ -287,7 +309,7 @@ python forum.py
 ctrl-c #to break
 exit
 
-
+"""
 Hello PostgreSQL
 The psql command-line tool is really powerful. There's a complete reference to it in the PostgreSQL documentation.
 
@@ -304,3 +326,4 @@ Some other things you can do:
 \dt+ — list tables plus additional information (notably, how big each table is on disk).
 
 \H — switch between printing tables in plain text vs. HTML.
+"""

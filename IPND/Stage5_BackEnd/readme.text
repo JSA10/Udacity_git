@@ -1,0 +1,63 @@
+IPND Stage 5 Back End Tournament Project (JAhye)
+
+This database project is the final step on my journey through Udacity's
+Introduction to Programming Nanodegree Program (IPND). This has been a really
+interesting module and while it's taken me a while to work out the VM / vagrant
+setup, how the Python DB API works, I got there in the end and this will be
+super useful in my day job as a data analyst, boosting my ability to programmatically
+extract data from databases.
+
+This project demonstrates the design and use of a PostgreSQL database with
+normalised data tables, to manage a tournament using the Swiss-system,
+which is a tournament system used in certain competitions as a quicker alternative
+to a full round robin, but reduces element of luck inherent in knock-out competitions.
+
+To complete the project I've leaned heavily on the Udacity lecture notes and exercises,
+plus referenced resources like w3schools for basic SQL questions, stack overflow
+for one or two Python points and previous IPND work with control structures. 
+
+To run the program, follow the instructions below:
+
+- Install Vagrant (http://vagrantup.com/) and VirtualBox (https://www.virtualbox.org/)
+# Some documentation: https://udacity.atlassian.net/wiki/display/BENDH/Vagrant+VM+Installation
+
+- Clone fullstack-nanodegree-vm repository (https://github.com/udacity/fullstack-nanodegree-vm_
+
+- Launch the Vagrant VM using below command:
+> vagrant up
+# can later turn off with 'vagrant halt'
+
+- Use below command to setup a secure shell on the virtual machine
+> vagrant ssh
+# can later type 'exit' to log out
+
+- Navigate to tournament folder:
+> cd fullstack/vagrant/tournament
+
+- Copy the submitted files into that folder: tournament.py, tournament.sql
+# the file tournament_test.py should already be in there
+
+- From tournament folder, access PostgreSQL database using psql:
+> psql -f tournament.sql
+# the sql file creates database tables, clears any old ones and creates a view for standings
+
+- From the same folder, run the python functions test file:
+> python tournament_test.py
+
+If all runs well we get this message below:
+
+'''
+1. countPlayers() returns 0 after initial deletePlayers() execution.
+2. countPlayers() returns 1 after one player is registered.
+3. countPlayers() returns 2 after two players are registered.
+4. countPlayers() returns zero after registered players are deleted.
+5. Player records successfully deleted.
+6. Newly registered players appear in the standings with no matches.
+7. After a match, players have updated standings.
+8. After match deletion, player standings are properly reset.
+9. Matches are properly deleted.
+10. After one match, players with one win are properly paired.
+Success!  All tests pass!
+'''
+
+Hurrah!
